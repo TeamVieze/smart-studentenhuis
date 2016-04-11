@@ -8,18 +8,11 @@
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
         <link rel="stylesheet" href="css/uikit.min.css">
-        <script src="../vendor/jquery.js"></script>
+        <script src="js/jquery.min.js"></script>
         <script src="js/uikit.min.js"></script>
     </head>
 
     <body>
-
-<!-- This is the off-canvas sidebar -->
-<div id="my-id" class="uk-offcanvas">
-    <div class="uk-offcanvas-bar">
-        <div class="uk-panel">...</div>
-    </div>
-</div>
 
         <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
 
