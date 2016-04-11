@@ -7,8 +7,8 @@
         <title>Login layout example - UIkit documentation</title>
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
-        <link rel="stylesheet" href="css/uikit.docs.min.css">
-        <script src="../vendor/jquery.js"></script>
+        <link rel="stylesheet" href="css/uikit.min.css">
+        <script src="js/jquery.min.js"></script>
         <script src="js/uikit.min.js"></script>
     </head>
 
