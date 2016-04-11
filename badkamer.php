@@ -136,7 +136,7 @@
 			</div>
 			
 			
-			        <div id="offcanvas" class="uk-offcanvas">
+		<div id="offcanvas" class="uk-offcanvas">
             <div class="uk-offcanvas-bar">
                 <ul class="uk-nav uk-nav-offcanvas">
                     <li class="uk-active">
