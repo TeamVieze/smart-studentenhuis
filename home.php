@@ -45,7 +45,7 @@
             </nav>
 
 
-            <div class="uk-grid" data-uk-grid-margin>
+            <div class="uk-grid" data-uk-grid-margin> 
                 <div class="uk-width-medium-1-2">
                     <div class="uk-grid">
                         <div class="uk-width-1-6">
