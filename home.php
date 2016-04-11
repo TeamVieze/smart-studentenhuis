@@ -4,20 +4,22 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Frontpage layout example - UIkit documentation</title>
+        <title>Mijn studentenhuis</title>
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
-        <link rel="stylesheet" href="css/uikit.min.css">
-        <script src="../vendor/jquery.js"></script>
-        <script src="js/uikit.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/uikit.almost-flat.min.css">
+		<link rel="stylesheet" type="text/css" href="css/components/sticky.almost-flat.min.css">
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+		
+        <script type="text/javascript" src="js/uikit.min.js"></script>
+		<script type="text/javascript" src="js/components/sticky.min.js"></script>
     </head>
 
     <body>
 
         <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
-
-            <nav class="uk-navbar uk-margin-large-bottom">
-                <a class="uk-navbar-brand uk-hidden-small" href="layouts_frontpage.html">Brand</a>
+            <nav class="uk-navbar uk-margin-large-bottom" data-uk-sticky="clsactive: 'uk-navbar-attached'">
+                <a class="uk-navbar-brand uk-hidden-small" href="layouts_frontpage.html">Mijn Dorm</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
                     <li class="uk-active">
                         <a href="layouts_frontpage.html">Frontpage</a>
@@ -38,8 +40,8 @@
                         <a href="layouts_login.html">Login</a>
                     </li>
                 </ul>
-                <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Brand</div>
+            <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Mijn Dorm</div>
             </nav>
 
 
