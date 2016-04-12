@@ -103,14 +103,14 @@
 				
                 <!--Buttons keuken, badkamer, woonkamer en energieverbruik-->
     			<div class="uk-width-large-4-10 uk-width-small-1-2 uk-margin-bottom uk-container-center">
-    				<a class="uk-thumbnail uk-width-1-1" href="">
+    				<a class="uk-thumbnail  uk-width-1-1" href="" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:300}">
     					<img src="images/kitchen.jpg" alt="">
     					<div class="uk-thumbnail-caption">Keuken</div>
 					</a>
     			</div>
 
     			<div class="uk-width-large-4-10 uk-width-small-1-2 uk-margin-bottom uk-container-center">
-    				<a class="uk-thumbnail uk-width-1-1" href="">
+    				<a class="uk-thumbnail uk-width-1-1" href="" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:300}">
     					<img src="images/bathroom.jpg" alt="">
     					<div class="uk-thumbnail-caption">Badkamer</div>
 					</a>
@@ -119,14 +119,14 @@
 
 			
     			<div class="uk-width-large-4-10 uk-width-small-1-2 uk-margin-bottom uk-container-center">
-    				<a class="uk-thumbnail uk-width-1-1" href="">
+    				<a class="uk-thumbnail uk-width-1-1" href="" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:300}">
     					<img src="images/livingroom.jpg" alt="">
     					<div class="uk-thumbnail-caption">Woonkamer</div>
 					</a>
     			</div>
 
     			<div class="uk-width-large-4-10 uk-width-small-1-2 uk-margin-bottom uk-container-center">
-    				<a class="uk-thumbnail uk-width-1-1" href="">
+    				<a class="uk-thumbnail uk-width-1-1" href="" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:300}">
     					<img src="images/power.jpg" alt="">
     					<div class="uk-thumbnail-caption">Energieverbruik</div>
 					</a>
@@ -137,7 +137,7 @@
 
 
         </div>
-		
+		<hr class="uk-article-divider">
 		<!-- Footer -->	
 		<footer id="footer">
             <div id="section-3">

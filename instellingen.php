@@ -197,7 +197,7 @@
 				
 				
 		</div>
-		
+		<hr class="uk-article-divider">
 		<!-- Footer -->	
 		<footer id="footer">
             <div id="section-3">

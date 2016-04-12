@@ -151,8 +151,18 @@
 				
 			</div>
 			
-		<!-- Footer -->	
+	
+			
+			
+			
+			
+
+        </div>
+
+			<!-- Footer -->	
+		<hr class="uk-article-divider">
 		<footer id="footer">
+		
             <div id="section-3">
                 <div class="uk-text-center">
                     <div class="StuDormlogo">
@@ -178,11 +188,8 @@
                 </div>
             </div>
         </footer>
-			
-			
-			
-			
-		<!-- Off canvas menu --> 	
+		
+				<!-- Off canvas menu --> 	
 		<div id="offcanvas" class="uk-offcanvas">
             <div class="uk-offcanvas-bar">
                 <ul class="uk-nav uk-nav-offcanvas">
@@ -205,8 +212,7 @@
                         <a href="layouts_login.html">Login</a>
                     </li>
                 </ul>
-            </div>
-        </div>
-
+		</div>
+		
     </body>
 </html>
