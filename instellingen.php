@@ -97,6 +97,18 @@
                         </div>
 
                         <div class="uk-width-1-10">
+                            <i class="uk-icon-phone uk-text-primary"></i>
+                        </div>
+
+                        <div class="uk-width-3-10">
+                            <p>Telefoon:</p>
+                        </div>
+
+                        <div class="uk-width-6-10">
+                            <p>+316-55789451</p>
+                        </div>
+
+                        <div class="uk-width-1-10">
                             <i class="uk-icon-calendar-o uk-text-primary"></i>
                         </div>
 
