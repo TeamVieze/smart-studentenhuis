@@ -60,16 +60,18 @@
                     <button class="uk-button uk-width-1-1" type="button">Sensoren</button>
                 </div>
                 <!--Einde buttons huisgenoten en sensoren -->
-
+				
+				
+				
                 <!--Buttons keuken, badkamer, woonkamer en energieverbruik-->
-    			<div class="uk-width-1-2 uk-margin-bottom uk-container-center">
+    			<div class="uk-width-large-4-10 uk-width-small-1-2 uk-margin-bottom uk-container-center">
     				<a class="uk-thumbnail uk-width-1-1" href="">
     					<img src="images/kitchen.jpg" alt="">
     					<div class="uk-thumbnail-caption">Keuken</div>
 					</a>
     			</div>
 
-    			<div class="uk-width-1-2 uk-margin-bottom uk-container-center">
+    			<div class="uk-width-large-4-10 uk-width-small-1-2 uk-margin-bottom uk-container-center">
     				<a class="uk-thumbnail uk-width-1-1" href="">
     					<img src="images/bathroom.jpg" alt="">
     					<div class="uk-thumbnail-caption">Badkamer</div>
@@ -78,14 +80,14 @@
 			
 
 			
-    			<div class="uk-width-1-2">
+    			<div class="uk-width-large-4-10 uk-width-small-1-2 uk-margin-bottom uk-container-center">
     				<a class="uk-thumbnail uk-width-1-1" href="">
     					<img src="images/livingroom.jpg" alt="">
     					<div class="uk-thumbnail-caption">Woonkamer</div>
 					</a>
     			</div>
 
-    			<div class="uk-width-1-2">
+    			<div class="uk-width-large-4-10 uk-width-small-1-2 uk-margin-bottom uk-container-center">
     				<a class="uk-thumbnail uk-width-1-1" href="">
     					<img src="images/power.jpg" alt="">
     					<div class="uk-thumbnail-caption">Energieverbruik</div>
@@ -121,8 +123,12 @@
                         <a href="layouts_login.html">Login</a>
                     </li>
                 </ul>
-            </div>
-        </div>
+            </div>	
 
-    </body>
+			
+			
+        </div>
+		
+
+
 </html>
