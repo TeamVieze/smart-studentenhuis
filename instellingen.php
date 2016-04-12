@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="css/components/progress.css">
         <script src="js/jquery.min.js"></script>
         <script src="js/uikit.min.js"></script>
+        <link rel="stylesheet" href="css/style.css"> 
 		<script type="text/javascript" src="js/components/sticky.min.js"></script>
 		
     </head>
@@ -132,6 +133,7 @@
                             </div>
 
                             <h2 class="uk-h2 uk-margin-top">Overige Instellingen</h2>
+
 
                         </div>
                     </div>   
