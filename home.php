@@ -21,32 +21,41 @@
 
         <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
 
-            <!--Navigatiebalk -->
-            <nav class="uk-navbar uk-margin-large-bottom" data-uk-sticky="clsactive: 'uk-navbar-attached'">
-                <a class="uk-navbar-brand uk-hidden-small" href="layouts_frontpage.html">StuDorm</a>
+ <!-- Navigatiebalk --> 
+            <nav class="uk-navbar">
+                <a class="uk-navbar-brand uk-hidden-small" href="home.php">Studorm</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
                     <li class="uk-active">
-                        <a href="layouts_frontpage.html">Frontpage</a>
+                        <a href="home.php">Home</a>
                     </li>
                     <li>
-                        <a href="layouts_portfolio.html">Portfolio</a>
+                        <a href="#">Keuken</a>
                     </li>
                     <li>
-                        <a href="layouts_blog.html">Blog</a>
+                        <a href="badkamer.php">Badkamer</a>
                     </li>
                     <li>
-                        <a href="layouts_documentation.html">Documentation</a>
+                        <a href="#">Woonkamer</a>
                     </li>
                     <li>
-                        <a href="layouts_contact.html">Contact</a>
+                        <a href="#">Energieverbuik</a>
                     </li>
                     <li>
-                        <a href="layouts_login.html">Login</a>
+                        <a href="instellingen.php">Instellingen</a>
+                    </li>
+                    <li>
+                        <a href="index.php">Uitloggen</a>
                     </li>
                 </ul>
-            <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">StuDorm</div>
+                <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Instellingen</div>
             </nav>
+            <!-- Einde navigatiebalk --> 
+
+            <ul class="uk-breadcrumb">
+                <li class="uk-active">Home</li>
+				<li class="uk-active"><span>...</span></li>
+            </ul>
 
 
             
@@ -71,7 +80,7 @@
                                     </div>
                                 </div>
 								
-								<div class="uk-button-dropdown uk-margin-bottom" data-uk-dropdown="{mode:'click'}">
+								<div class="uk-button-dropdown uk-margin-bottom	" data-uk-dropdown="{mode:'click'}">
                                     <button class="uk-button">Sensoren <i class="uk-icon-caret-down"></i></button>
                                     <div class="uk-dropdown">
                                         <ul class="uk-nav uk-nav-dropdown">
