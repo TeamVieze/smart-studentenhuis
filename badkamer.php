@@ -19,10 +19,12 @@
     <body>
 
         <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
-			
+		
+
+		
 			
 			<!-- Navigatiebalk --> 
-            <nav class="uk-navbar uk-margin-large-bottom">
+            <nav class="uk-navbar uk-margin-bottom">
                 <a class="uk-navbar-brand uk-hidden-small" href="layouts_frontpage.html">StuDorm</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
                     <li>
@@ -49,8 +51,15 @@
             </nav>
 			<!-- Einde navigatiebalk --> 
 			
+			<ul class="uk-breadcrumb">
+				<li><a href="home.php">Home</a></li>
+				<li class="uk-active"><span>Badkamer</span></li>
+			</ul>
+			
+			
+			
 			<!-- Grid voor de twee buttons --> 
-            <div class="uk-grid" data-uk-grid-margin>
+            <div class="uk-grid">
                 <div class="uk-width-medium-1-1">
                     <div class="uk-vertical-align uk-text-center">
                         <div class="uk-vertical-align-middle uk-width-1-2">
@@ -64,7 +73,7 @@
             </div>
 			
 			<!-- Grid voor de beschikbaarheid --> 
-			<div class="uk-grid" data-uk-grid-margin>
+			<div class="uk-grid">
 			
                 <div class="uk-width-medium-1-1">
 
