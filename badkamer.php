@@ -91,6 +91,7 @@
                             <h2 class="uk-h3"><i class="uk-icon-calendar"></i> Woensdag 21 okt. <i class="uk-icon-clock-o"></i>  7:00u-7:15u</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
+                        
                     </div>
                 </div>
 				
