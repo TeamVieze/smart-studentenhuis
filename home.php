@@ -7,7 +7,7 @@
         <title>Mijn studentenhuis</title>
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
-        <link rel="stylesheet" type="text/css" href="css/uikit.almost-flat.min.css">
+        <link rel="stylesheet" type="text/css" href="css/uikit.min.css">
 		<link rel="stylesheet" href="css/uikit.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		
