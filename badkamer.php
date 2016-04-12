@@ -68,7 +68,7 @@
 
                     <div class="uk-vertical-align uk-text-center" style="background: url('images/bathroom.jpg') no-repeat; background-size: cover; height: 500px;">
                         <div class="uk-vertical-align-middle uk-width-1-2">
-                            <h1 class="uk-heading-large">Op dit moment: <div class="uk-alert uk-alert-danger">BEZET</div></h1>
+                            <h1 class="uk-heading-large">De badkamer is op dit moment: <div class="uk-alert uk-alert-danger">BEZET</div></h1>
                             <p class="uk-text-large">Vrij over c.a.:</p>
                            <div class="uk-progress">
 							<div class="uk-progress-bar" style="width: 80%;">4m31s</div>

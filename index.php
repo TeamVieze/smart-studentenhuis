@@ -33,11 +33,89 @@
                         <label class="uk-float-left"><input type="checkbox"> Remember Me</label>
                         <a class="uk-float-right uk-link uk-link-muted" href="#">Forgot Password?</a>
                     </div>
+									
                 </form>
-
+				<a href="#modal6" data-uk-modal>Nog geen account? Klik hier om een account te maken </a>
             </div>
+			
+
+			
+			
+			
+			
         </div>
 
+
+                       <div id="modal6" class="uk-modal">
+                                <div class="uk-modal-dialog">
+                                    <button type="button" class="uk-modal-close uk-close"></button>
+                                    <div class="uk-modal-header">
+                                        <h2>Maak een nieuw account aan </h2>
+                                    </div>
+									
+										<div class="uk-grid">
+											<div class="uk-form uk-width-1-2">
+									
+												<div class="uk-form-row uk-width-1-2">
+													<label class="uk-form-label" for="">Gebruikersnaam</label>
+													<div class="uk-form-controls">
+														<input type="text" id="username" placeholder="Gebruikersnaam">
+													</div>
+												</div>
+												
+												<div class="uk-form-row uk-width-1-2">
+													<label class="uk-form-label" for="">Voornaam</label>
+													<div class="uk-form-controls">
+														<input type="text" id="username" placeholder="Voornaam">
+													</div>
+												</div>
+												
+												<div class="uk-form-row uk-width-1-2">
+													<label class="uk-form-label" for="">Achternaam</label>
+													<div class="uk-form-controls">
+														<input type="text" id="username" placeholder="Gebruikersnaam">
+													</div>
+												</div>
+												
+												<div class="uk-form-row uk-width-1-2">
+													<label class="uk-form-label" for="">Wachtwoord</label>
+													<div class="uk-form-controls">
+														<input type="password" id="" placeholder="Wachtwoord">
+													</div>
+												</div>
+												
+												<div class="uk-form-row uk-width-1-2">
+													<label class="uk-form-label" for="">E-mail adres</label>
+													<div class="uk-form-controls">
+														<input type="email" id="" placeholder="E-mail">
+													</div>
+												</div>
+												
+											</div>
+											
+											
+											
+											<div class="uk-width-1-2">
+													<img width="" height="" src="images/op.jpeg" alt="">
+													
+													
+													
+											</div>
+										
+										</div>
+
+
+									
+											
+                                    
+									<div class="uk-modal-footer uk-text-right">
+                                        <button type="button" class="uk-button">Annuleren</button>
+                                        <button type="button" class="uk-button uk-button-primary">Registreren</button>
+                                    </div>
+                                </div>
+                            </div>
+		
+		
     </body>
 
 </html>
