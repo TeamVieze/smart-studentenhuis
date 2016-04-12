@@ -18,7 +18,9 @@
 	width: auto;
 }
 
-
+.uk-navbar-brand{
+	color: white;
+}
 
 .uk-breadcrumb > li, .uk-breadcrumb > li > a, .uk-breadcrumb > li > span{
 	color: #FFF;

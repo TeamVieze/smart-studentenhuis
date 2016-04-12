@@ -18,20 +18,19 @@
     </head>
 
     <body>
-
-        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
-
-			<!-- Navigatiebalk --> 
+	
+		<!-- Navigatiebalk --> 
             <nav class="uk-navbar" data-uk-sticky data-uk-scrollspy="{cls:'uk-animation-slide-top',delay:300}">
-                <a class="uk-navbar-brand uk-hidden-small" href="home.php">StuDorm</a>
+				<div class="uk-container uk-container-center">
+                <a class="uk-navbar-brand uk-hidden-small" href="home.php">Studorm</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
-                    <li class="uk-active">
+                    <li>
                         <a href="home.php">Home</a>
                     </li>
                     <li>
                         <a href="#">Keuken</a>
                     </li>
-                    <li>
+                    <li class="uk-active">
                         <a href="badkamer.php">Badkamer</a>
                     </li>
                     <li>
@@ -48,9 +47,13 @@
                     </li>
                 </ul>
                 <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">StuDorm</div>
+                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Instellingen</div>
+				</div>
             </nav>
             <!-- Einde navigatiebalk --> 
+
+        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+
 
             <ul class="uk-breadcrumb">
                 <li class="uk-active nu">Home</li>

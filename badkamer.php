@@ -18,13 +18,9 @@
 
     <body>
 
-        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
-		
-
-		
-			
-<!-- Navigatiebalk --> 
+	<!-- Navigatiebalk --> 
             <nav class="uk-navbar" data-uk-sticky data-uk-scrollspy="{cls:'uk-animation-slide-top',delay:300}">
+				<div class="uk-container uk-container-center">
                 <a class="uk-navbar-brand uk-hidden-small" href="home.php">Studorm</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
                     <li>
@@ -51,8 +47,17 @@
                 </ul>
                 <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
                 <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Instellingen</div>
+				</div>
             </nav>
             <!-- Einde navigatiebalk --> 
+	
+	
+        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+		
+
+		
+			
+
    
             <!--Breadcrumbs-->
    <ul class="uk-breadcrumb">
