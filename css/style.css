@@ -1,5 +1,3 @@
-.ewaja{
-	background: url(images/bathroom.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+#username{
+	width: 200px !important;
 }
