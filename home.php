@@ -18,6 +18,8 @@
     <body>
 
         <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+
+            <!--Navigatiebalk -->
             <nav class="uk-navbar uk-margin-large-bottom" data-uk-sticky="clsactive: 'uk-navbar-attached'">
                 <a class="uk-navbar-brand uk-hidden-small" href="layouts_frontpage.html">Mijn Dorm</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
@@ -45,33 +47,35 @@
             </nav>
 
 
+            
             <div class="uk-grid uk-margin-top">
-            	<div class="uk-width-1-2 uk-container-center">
-            		<button class="uk-button uk-width-1-1" type="button">Huisgenoten</button>
-            	</div>
+                <!--Buttons huisgenoten en sensoren -->
+                <div class="uk-width-1-2 uk-margin-bottom uk-container-center">
+                    <button class="uk-button uk-width-1-1" type="button">Huisgenoten</button>
+                </div>
 
-            	<div class="uk-width-1-2 uk-container-center">
-            		<button class="uk-button uk-width-1-1" type="button">Sensoren</button>
-            	</div>
-            </div>
+                <div class="uk-width-1-2 uk-container-center">
+                    <button class="uk-button uk-width-1-1" type="button">Sensoren</button>
+                </div>
+                <!--Einde buttons huisgenoten en sensoren -->
 
-            <div class="uk-grid uk-margin-top">
-    			<div class="uk-width-1-2 uk-container-center">
+                <!--Buttons keuken, badkamer, woonkamer en energieverbruik-->
+    			<div class="uk-width-1-2 uk-margin-bottom uk-container-center">
     				<a class="uk-thumbnail uk-width-1-1" href="">
     					<img src="http://placehold.it/600x350" alt="">
     					<div class="uk-thumbnail-caption">Keuken</div>
 					</a>
     			</div>
 
-    			<div class="uk-width-1-2 uk-container-center">
+    			<div class="uk-width-1-2 uk-margin-bottom uk-container-center">
     				<a class="uk-thumbnail uk-width-1-1" href="">
     					<img src="http://placehold.it/600x350" alt="">
     					<div class="uk-thumbnail-caption">Badkamer</div>
 					</a>
     			</div>
-			</div>
+			
 
-			<div class="uk-grid">
+			
     			<div class="uk-width-1-2">
     				<a class="uk-thumbnail uk-width-1-1" href="">
     					<img src="http://placehold.it/600x350" alt="">
@@ -85,12 +89,14 @@
     					<div class="uk-thumbnail-caption">Energieverbruik</div>
 					</a>
     			</div>
+                <!--Eind buttons keuken, badkamer, woonkamer en energieverbruik-->
 			</div>
 
 
 
         </div>
 
+        <!--slidemenu-->
         <div id="offcanvas" class="uk-offcanvas">
             <div class="uk-offcanvas-bar">
                 <ul class="uk-nav uk-nav-offcanvas">
