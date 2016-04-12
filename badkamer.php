@@ -23,38 +23,43 @@
 
 		
 			
-			<!-- Navigatiebalk --> 
-            <nav class="uk-navbar uk-margin-bottom">
-                <a class="uk-navbar-brand uk-hidden-small" href="layouts_frontpage.html">StuDorm</a>
+<!-- Navigatiebalk --> 
+            <nav class="uk-navbar">
+                <a class="uk-navbar-brand uk-hidden-small" href="home.php">Studorm</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
                     <li>
-                        <a href="layouts_frontpage.html">Frontpage</a>
+                        <a href="home.php">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Keuken</a>
                     </li>
                     <li class="uk-active">
-                        <a href="layouts_portfolio.html">Badkamer</a>
+                        <a href="badkamer.php">Badkamer</a>
                     </li>
                     <li>
-                        <a href="layouts_blog.html">Keuken</a>
+                        <a href="#">Woonkamer</a>
                     </li>
                     <li>
-                        <a href="layouts_documentation.html">Woonkamer</a>
+                        <a href="#">Energieverbuik</a>
                     </li>
                     <li>
-                        <a href="layouts_contact.html">Instellingen</a>
+                        <a href="instellingen.php">Instellingen</a>
                     </li>
                     <li>
-                        <a href="layouts_login.html">Login</a>
+                        <a href="index.php">Uitloggen</a>
                     </li>
                 </ul>
                 <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Badkamer</div>
+                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Instellingen</div>
             </nav>
-			<!-- Einde navigatiebalk --> 
-			
-			<ul class="uk-breadcrumb">
-				<li><a href="home.php">Home</a></li>
-				<li class="uk-active"><span>Badkamer</span></li>
-			</ul>
+            <!-- Einde navigatiebalk --> 
+   
+            <!--Breadcrumbs-->
+   <ul class="uk-breadcrumb">
+    <li><a href="home.php">Home</a></li>
+    <li class="uk-active"><span>Badkamer</span></li>
+   </ul>
+   <!--Einde breadcrumbs-->
 			
 			
 			
