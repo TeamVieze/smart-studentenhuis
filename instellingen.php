@@ -54,7 +54,7 @@
                 </div>
 
                 <div class="uk-width-large-1-2 uk-width-medium-1-1 uk-width-small-1-1 uk-margin-bottom">
-                    <img src="http://placehold.it/400x400" alt="">
+                    <img src="images/jorn.jpg" alt="" height="400" width="400">
                 </div>
 
                 <div class="uk-width-large-1-2 uk-width-medium-1-1 uk-width-small-1-1">
@@ -65,32 +65,81 @@
                             <i class="uk-icon-envelope uk-text-primary"></i>
                         </div>
 
-                        <div class="uk-width-9-10">
-                            <p> email-address: jornhuisman@gmail.com</p>
+                        <div class="uk-width-3-10">
+                            <p>E-mailadres:</p>
                         </div>
                         
+                        <div class="uk-width-6-10">
+                            <p>jornhuisman@gmail.com</p>
+                        </div>
+
                         <div class="uk-width-1-10">
                             <i class="uk-icon-lock uk-text-primary"></i>
                         </div>
 
-                        <div class="uk-width-9-10">
-                           <p> wachtwoord: *******</p>
+                        <div class="uk-width-3-10">
+                           <p>Wachtwoord:</p>
+                        </div>
+
+                        <div class="uk-width-6-10">
+                            <p>*******</p>
                         </div>
 
                         <div class="uk-width-1-10">
                             <i class="uk-icon-calendar-o uk-text-primary"></i>
                         </div>
 
-                        <div class="uk-width-9-10">
-                            <p>geboortedatum: 23-11-1993</p>
+                        <div class="uk-width-3-10">
+                            <p>Geboortedatum:</p>
+                        </div>
+
+                        <div class="uk-width-6-10">
+                            <p>23-11-1993</p>
                         </div>
 
                         <div class="uk-width-1-1">
-                            <a class="uk-button uk-button-primary uk-button-large uk-margin-top" href="#">gegevens wijzigen <i class="uk-icon-pencil"></i></a>
+                            <a class="uk-button uk-button-primary uk-button-large uk-margin-top" href="#">Gegevens wijzigen <i class="uk-icon-pencil"></i></a>
                         </div>
 
-                    </div>
+                        <h2 class="uk-h2 uk-margin-large-top uk-margin-bottom">Mijn huizen</h2>
+                        <div class="uk-grid">
+                            <div class="uk-width-1-10">
+                                <i class="uk-icon-home uk-icon-medium uk-text-primary"></i>
+                            </div>
+
+                            <div class="uk-width-3-10 uk-margin-bottom">
+                                <p>Huisnaam:</p>
+                            </div>
+
+                            <div class="uk-width-6-10">
+                                <p>Hoogstraat 9A</p>
+                            </div>
+
+                            <div class="uk-width-1-10">
+                                <i class="uk-icon-home uk-icon-medium uk-text-primary"></i>
+                            </div>
+
+                            <div class="uk-width-3-10">
+                                <p>Huisnaam:</p>
+                            </div>
+
+                            <div class="uk-width-6-10">
+                                <p>Zuiderlaan 2</p>
+                            </div>
+
+                            <div class="uk-width-1-1">
+                                <a class="uk-button uk-button-primary uk-button-large uk-margin-top" href="#">Huizen beheren <i class="uk-icon-arrow-right"></i></a>
+                            </div>
+
+                        </div>
+                    </div>   
                 </div>
+
+                <div class="uk-width-large-1-2 uk-width-small-1-1 uk-margin-large-top">
+
+                    
+                </div>
+
             </div>
 
 			
@@ -127,4 +176,4 @@
         </div>
 
     </body>
-</html>
+</html>-
