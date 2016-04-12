@@ -132,8 +132,31 @@
                                 <a class="uk-button uk-button-primary uk-button-large uk-margin-top" href="#">Huizen beheren <i class="uk-icon-arrow-right"></i></a>
                             </div>
 
-                            <h2 class="uk-h2 uk-margin-top">Overige Instellingen</h2>
+                            <div class="uk-width-1-1">
+                                <h2 class="uk-h2 uk-margin-top uk-margin-bottom">Overige Instellingen</h2>
+                            </div>
 
+                            <div class="uk-width-1-2">
+                                <h3 class="uk-h4">Roostersynchronisatie</h3>
+                            </div>
+
+                            <div class="uk-width-1-2">
+                                <div data-uk-button-radio uk-margin-bottom>
+                                    <button class="uk-button">Aan</button>
+                                    <button class="uk-button">Uit</button>
+                                </div>
+                            </div>
+
+                            <div class="uk-width-1-2">
+                                <h3 class="uk-h4">Notificaties</h3>
+                            </div>
+
+                            <div class="uk-width-1-2">
+                                <div data-uk-button-radio>
+                                    <button class="uk-button">Aan</button>
+                                    <button class="uk-button">Uit</button>
+                                </div>
+                            </div>
 
                         </div>
                     </div>   
