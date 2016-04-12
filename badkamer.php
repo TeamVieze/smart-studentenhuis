@@ -24,7 +24,7 @@
 		
 			
 <!-- Navigatiebalk --> 
-            <nav class="uk-navbar" data-uk-sticky>
+            <nav class="uk-navbar" data-uk-sticky data-uk-scrollspy="{cls:'uk-animation-slide-top',delay:300}">
                 <a class="uk-navbar-brand uk-hidden-small" href="home.php">Studorm</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
                     <li>
@@ -57,7 +57,7 @@
             <!--Breadcrumbs-->
    <ul class="uk-breadcrumb">
     <li><a href="home.php">Home</a></li>
-    <li class="uk-active"><span>Badkamer</span></li>
+    <li class="uk-active nu"><span>Badkamer</span></li>
    </ul>
    <!--Einde breadcrumbs-->
 			

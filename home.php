@@ -22,8 +22,8 @@
         <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
 
 			<!-- Navigatiebalk --> 
-            <nav class="uk-navbar" data-uk-sticky>
-                <a class="uk-navbar-brand uk-hidden-small" href="home.php">Studorm</a>
+            <nav class="uk-navbar" data-uk-sticky data-uk-scrollspy="{cls:'uk-animation-slide-top',delay:300}">
+                <a class="uk-navbar-brand uk-hidden-small" href="home.php">StuDorm</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
                     <li class="uk-active">
                         <a href="home.php">Home</a>
@@ -53,13 +53,13 @@
             <!-- Einde navigatiebalk --> 
 
             <ul class="uk-breadcrumb">
-                <li class="uk-active">Home</li>
+                <li class="uk-active nu">Home</li>
 				<li class="uk-active"><span>...</span></li>
             </ul>
 
 
             
-            <div class="uk-grid uk-margin-top">
+            <div class="uk-grid">
                 <!--Buttons huisgenoten en sensoren -->
 				
                 <div class="uk-width-large-7-10 uk-width-medium-1-1 uk-width-small-1-1 uk-margin-bottom uk-container-center">
@@ -103,14 +103,14 @@
 				
                 <!--Buttons keuken, badkamer, woonkamer en energieverbruik-->
     			<div class="uk-width-large-4-10 uk-width-small-1-2 uk-margin-bottom uk-container-center">
-    				<a class="uk-thumbnail  uk-width-1-1" href="" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:300}">
+    				<a class="uk-thumbnail  uk-width-1-1" href="" >
     					<img src="images/kitchen.jpg" alt="">
     					<div class="uk-thumbnail-caption">Keuken</div>
 					</a>
     			</div>
 
     			<div class="uk-width-large-4-10 uk-width-small-1-2 uk-margin-bottom uk-container-center">
-    				<a class="uk-thumbnail uk-width-1-1" href="" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:300}">
+    				<a class="uk-thumbnail uk-width-1-1" href="">
     					<img src="images/bathroom.jpg" alt="">
     					<div class="uk-thumbnail-caption">Badkamer</div>
 					</a>
@@ -119,14 +119,14 @@
 
 			
     			<div class="uk-width-large-4-10 uk-width-small-1-2 uk-margin-bottom uk-container-center">
-    				<a class="uk-thumbnail uk-width-1-1" href="" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:300}">
+    				<a class="uk-thumbnail uk-width-1-1" href="">
     					<img src="images/livingroom.jpg" alt="">
     					<div class="uk-thumbnail-caption">Woonkamer</div>
 					</a>
     			</div>
 
     			<div class="uk-width-large-4-10 uk-width-small-1-2 uk-margin-bottom uk-container-center">
-    				<a class="uk-thumbnail uk-width-1-1" href="" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:300}">
+    				<a class="uk-thumbnail uk-width-1-1" href="">
     					<img src="images/power.jpg" alt="">
     					<div class="uk-thumbnail-caption">Energieverbruik</div>
 					</a>
