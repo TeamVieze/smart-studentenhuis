@@ -18,7 +18,7 @@
         <div class="uk-vertical-align uk-text-center uk-height-1-1">
             <div class="uk-vertical-align-middle" style="width: 250px;">
 
-                <img class="uk-margin-bottom" width="280" height="240" src="images/logo.png" alt="">
+                <img class="uk-margin-bottom"  src="images/logo2.png" alt="">
 
                 <form class="uk-panel uk-panel-box uk-form">
                     <div class="uk-form-row">

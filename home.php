@@ -9,6 +9,8 @@
         <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
         <link rel="stylesheet" type="text/css" href="css/uikit.almost-flat.min.css">
 		<link rel="stylesheet" type="text/css" href="css/components/sticky.almost-flat.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
         <script type="text/javascript" src="js/jquery.min.js"></script>
 		
         <script type="text/javascript" src="js/uikit.min.js"></script>
@@ -62,14 +64,14 @@
                 <!--Buttons keuken, badkamer, woonkamer en energieverbruik-->
     			<div class="uk-width-1-2 uk-margin-bottom uk-container-center">
     				<a class="uk-thumbnail uk-width-1-1" href="">
-    					<img src="http://placehold.it/600x350" alt="">
+    					<img src="images/kitchen.jpg" alt="">
     					<div class="uk-thumbnail-caption">Keuken</div>
 					</a>
     			</div>
 
     			<div class="uk-width-1-2 uk-margin-bottom uk-container-center">
     				<a class="uk-thumbnail uk-width-1-1" href="">
-    					<img src="http://placehold.it/600x350" alt="">
+    					<img src="images/bathroom.jpg" alt="">
     					<div class="uk-thumbnail-caption">Badkamer</div>
 					</a>
     			</div>
@@ -78,14 +80,14 @@
 			
     			<div class="uk-width-1-2">
     				<a class="uk-thumbnail uk-width-1-1" href="">
-    					<img src="http://placehold.it/600x350" alt="">
+    					<img src="images/livingroom.jpg" alt="">
     					<div class="uk-thumbnail-caption">Woonkamer</div>
 					</a>
     			</div>
 
     			<div class="uk-width-1-2">
     				<a class="uk-thumbnail uk-width-1-1" href="">
-    					<img src="http://placehold.it/600x350" alt="">
+    					<img src="images/power.jpg" alt="">
     					<div class="uk-thumbnail-caption">Energieverbruik</div>
 					</a>
     			</div>

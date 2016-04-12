@@ -1,3 +1,27 @@
 #username{
 	width: 200px !important;
 }
+
+.uk-navbar-brand{
+	
+
+}
+
+.uk-navbar{
+	background-color:#009DDC;
+	
+}
+
+.uk-navbar > a{
+	color: white;
+}
+
+.uk-navbar-nav > li > a{
+	color: white;
+}
+
+
+.uk-navbar-nav > li.uk-active > a {
+	color: white;
+	background-color: #06BAFF;
+}
