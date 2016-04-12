@@ -21,8 +21,8 @@
 
         <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
 
- <!-- Navigatiebalk --> 
-            <nav class="uk-navbar">
+			<!-- Navigatiebalk --> 
+            <nav class="uk-navbar" data-uk-sticky>
                 <a class="uk-navbar-brand uk-hidden-small" href="home.php">Studorm</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
                     <li class="uk-active">
@@ -48,7 +48,7 @@
                     </li>
                 </ul>
                 <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Instellingen</div>
+                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">StuDorm</div>
             </nav>
             <!-- Einde navigatiebalk --> 
 
@@ -62,7 +62,7 @@
             <div class="uk-grid uk-margin-top">
                 <!--Buttons huisgenoten en sensoren -->
 				
-                <div class="uk-width-7-10 uk-margin-bottom uk-container-center">
+                <div class="uk-width-large-7-10 uk-width-medium-1-1 uk-width-small-1-1 uk-margin-bottom uk-container-center">
 
 				
 								<div class="uk-button-dropdown uk-margin-bottom" data-uk-dropdown="{mode:'click'}">
@@ -137,6 +137,37 @@
 
 
         </div>
+		
+		<!-- Footer -->	
+		<footer id="footer">
+            <div id="section-3">
+                <div class="uk-text-center">
+                    <div class="StuDormlogo">
+                        <div class="uk-container uk-container-center">
+                            <div class="uk-grid">
+                                <div class="uk-width-1-1 uk-margin-top uk-margin-bottom">
+                                     <img data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:300}" width="200px" heigh="100px"  src="images/logo2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <div class="uk-container uk-container-center">
+                            <div class="uk-grid">
+                                <div class="uk-width-1-1 uk-margin-top uk-margin-bottom">
+                                    <p data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:300}">
+                                        Copyright &copy; 2016 StuDorm</p>
+                                    <a href="#section-0" data-uk-smooth-scroll class="uk-icon-button uk-icon-arrow-circle-up" data-uk-tooltip="{pos:'top'}" title="Go Top" data-uk-scrollspy="{cls:'uk-animation-slide-right',delay:300}"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+		
+		
+		
 
         <!--slidemenu-->
         <div id="offcanvas" class="uk-offcanvas">

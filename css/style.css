@@ -7,8 +7,13 @@
 
 }
 
-.tm-footer{
-	background-color: black;
+footer{
+	background-color: #fafaed;
+}
+
+
+.uk-visible-small{
+	color: white;
 }
 
 .uk-navbar{

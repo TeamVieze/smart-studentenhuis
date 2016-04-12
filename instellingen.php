@@ -22,7 +22,7 @@
 			
 			
 			<!-- Navigatiebalk --> 
-            <nav class="uk-navbar">
+            <nav class="uk-navbar" data-uk-sticky>
                 <a class="uk-navbar-brand uk-hidden-small" href="home.php">Studorm</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
                     <li>
@@ -185,6 +185,34 @@
 				
 				
 		</div>
+		
+		<!-- Footer -->	
+		<footer id="footer">
+            <div id="section-3">
+                <div class="uk-text-center">
+                    <div class="StuDormlogo">
+                        <div class="uk-container uk-container-center">
+                            <div class="uk-grid">
+                                <div class="uk-width-1-1 uk-margin-top uk-margin-bottom">
+                                     <img data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:300}" width="200px" heigh="100px"  src="images/logo2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <div class="uk-container uk-container-center">
+                            <div class="uk-grid">
+                                <div class="uk-width-1-1 uk-margin-top uk-margin-bottom">
+                                    <p data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:300}">
+                                        Copyright &copy; 2016 StuDorm</p>
+                                    <a href="#section-0" data-uk-smooth-scroll class="uk-icon-button uk-icon-arrow-circle-up" data-uk-tooltip="{pos:'top'}" title="Go Top" data-uk-scrollspy="{cls:'uk-animation-slide-right',delay:300}"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 			
 			
 		<div id="offcanvas" class="uk-offcanvas">
