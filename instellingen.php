@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="css/components/progress.css">
         <script src="js/jquery.min.js"></script>
         <script src="js/uikit.min.js"></script>
+        <link rel="stylesheet" href="css/style.css"> 
 		<script type="text/javascript" src="js/components/sticky.min.js"></script>
 		
     </head>
@@ -101,7 +102,7 @@
                             <a class="uk-button uk-button-primary uk-button-large uk-margin-top" href="#">Gegevens wijzigen <i class="uk-icon-pencil"></i></a>
                         </div>
 
-                        <h2 class="uk-h2 uk-margin-large-top uk-margin-bottom">Mijn huizen</h2>
+                        <h2 class="uk-h2 uk-margin-top uk-margin-bottom">Mijn huizen</h2>
                         <div class="uk-grid">
                             <div class="uk-width-1-10">
                                 <i class="uk-icon-home uk-icon-medium uk-text-primary"></i>
@@ -130,6 +131,9 @@
                             <div class="uk-width-1-1">
                                 <a class="uk-button uk-button-primary uk-button-large uk-margin-top" href="#">Huizen beheren <i class="uk-icon-arrow-right"></i></a>
                             </div>
+
+                            <h2 class="uk-h2 uk-margin-top">Overige Instellingen</h2>
+
 
                         </div>
                     </div>   
