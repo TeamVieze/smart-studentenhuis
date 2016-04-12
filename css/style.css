@@ -29,3 +29,12 @@
 	color: white;
 	background-color: #06BAFF;
 }
+
+.uk-button.uk-active, .uk-button:active {
+	background-color: #35b3ee;
+	color: #fff;
+}
+
+.uk-width-1-2 {
+	margin-bottom: 5px;
+}
