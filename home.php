@@ -64,7 +64,7 @@
             
             <div class="uk-grid">
 			
-			<h2 class="uk-heading-medium uk-margin-bottom">Welkom Koen!</h2>
+			<h2 class="uk-heading-medium uk-margin-bottom">Welkom Jorn!</h2>
                 <!--Buttons huisgenoten en sensoren -->
 				
                 <div class="uk-width-large-1-1 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-bottom uk-container-center">
@@ -167,7 +167,7 @@
                         <div class="uk-container uk-container-center">
                             <div class="uk-grid">
                                 <div class="uk-width-1-1 uk-margin-top uk-margin-bottom">
-                                     <img data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:300}" width="200px" heigh="100px"  src="images/logo2.png" alt="">
+                                     <img data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:300}" width="200px" heigh="100px"  src="images/logowit3.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -178,7 +178,7 @@
                                 <div class="uk-width-1-1 uk-margin-top uk-margin-bottom">
                                     <p data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:300}">
                                         Copyright &copy; 2016 StuDorm</p>
-                                    <a href="#section-0" data-uk-smooth-scroll class="uk-icon-button uk-icon-arrow-circle-up" data-uk-tooltip="{pos:'top'}" title="Go Top" data-uk-scrollspy="{cls:'uk-animation-slide-right',delay:300}"></a>
+                                    <a href="#section-0" data-uk-smooth-scroll class="uk-icon-button uk-icon-hand-o-up" data-uk-tooltip="{pos:'top'}" title="Go Top" data-uk-scrollspy="{cls:'uk-animation-slide-right',delay:300}"></a>
                                 </div>
                             </div>
                         </div>
