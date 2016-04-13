@@ -55,6 +55,22 @@
 
 }
 
+
+.uk-offcanvas-bar {
+	background-color:#009DDC;
+	
+}
+
+.uk-nav-offcanvas > li > a{
+	color: #FFF;
+}
+
+html .uk-nav.uk-nav-offcanvas > li.uk-active > a{
+	background-color: #06BAFF;
+}
+	
+
+
 .overzichtdel{
 	float: right;
 	margin-bottom: 5;
