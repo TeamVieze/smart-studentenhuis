@@ -73,9 +73,10 @@
                 </div>
 
                 <div class="uk-width-large-1-2 uk-width-medium-1-1 uk-width-small-1-1">
-                    <h2 class="uk-h2">Gegevens</h2>
+                    <h2 class="uk-h2">Persoonlijke gegevens</h2>
                     
                     <div class="uk-grid">
+
                         <div class="uk-width-1-10">
                             <i class="uk-icon-envelope uk-text-primary"></i>
                         </div>
@@ -125,7 +126,7 @@
                         </div>
 
                         <div class="uk-width-1-1">
-                            <a class="uk-button uk-button-primary uk-button-large uk-margin-top" href="#">Gegevens wijzigen <i class="uk-icon-pencil"></i></a>
+                            <a class="uk-button uk-button-primary uk-button-large uk-margin-top" href="#modalinstellingen" data-uk-modal>Gegevens wijzigen <i class="uk-icon-pencil"></i></a>
                         </div>
 
                         <h2 class="uk-h2 uk-margin-top uk-margin-bottom">Mijn huizen</h2>
@@ -188,15 +189,125 @@
                     </div>   
                 </div>
 
-                <div class="uk-width-large-1-2 uk-width-small-1-1 uk-margin-large-top">
-
-                    
-                </div>
-
             </div>
 
 			
-				
+			<div id="modalinstellingen" class="uk-modal">
+                                <div class="uk-modal-dialog">
+                                    <button type="button" class="uk-modal-close uk-close"></button>
+                                    <div class="uk-modal-header">
+                                        <h2>Gegevens wijzigen </h2>
+                                    </div>
+                                    
+                                        <div class="uk-grid">
+                                            <div class="uk-form uk-width-1-2">
+
+                                                <div class="uk-form-row">
+                                                    <h2 class="uk-heading-medium uk-margin-bottom uk-width-large-1-2 uk-width-small-1-1">Welkom Jorn!</h2>
+                                                    <label class="uk-form-label" for="">Nieuw e-mailadres</label>
+                                                    <div class="uk-form-controls uk-form-icon uk-width-1-1">
+                                                        <i class="uk-icon-envelope"></i>
+                                                        
+                                                        <input type="email" class="uk-width-1-1" id="newemail" placeholder="Nieuw e-mailadres">
+                                                    </div>
+                                                </div>
+
+                                                 <div class="uk-form-row">
+                                                    <label class="uk-form-label" for="">Nieuw e-mailadres bevestigen</label>
+                                                    <div class="uk-form-controls uk-form-icon uk-width-1-1">
+                                                        <i class="uk-icon-envelope"></i>
+                                                        
+                                                        <input type="email" class="uk-width-1-1" id="newemailconfirm" placeholder="Nieuw e-mailadres bevestigen">
+                                                    </div>
+                                                </div>   
+
+                                                <h2 class="uk-heading-medium uk-margin-bottom uk-width-large-1-2 uk-width-small-1-1">Welkom Jorn!</h2>
+                                                <div class="uk-form-row">
+                                                    <label class="uk-form-label" for="">Huidig wachtwoord</label>
+                                                    <div class="uk-form-controls uk-form-icon uk-width-1-1">
+                                                        <i class="uk-icon-lock"></i>
+                                                        
+                                                        <input type="password" class="uk-width-1-1" id="passwordnow" placeholder="Huidig wachtwoord">
+                                                    </div>
+                                                </div>
+
+                                                <div class="uk-form-row">
+                                                    <label class="uk-form-label" for="">Nieuw wachtwoord</label>
+                                                    <div class="uk-form-controls uk-form-icon uk-width-1-1">
+                                                        <i class="uk-icon-lock"></i>
+                                                        
+                                                        <input type="password" class="uk-width-1-1" id="passwordnew" placeholder="Nieuw wachtwoord">
+                                                    </div>
+                                                </div>
+
+                                                <div class="uk-form-row">
+                                                    <label class="uk-form-label" for="">Nieuw wachtwoord bevestigen</label>
+                                                    <div class="uk-form-controls uk-form-icon uk-width-1-1">
+                                                        <i class="uk-icon-lock"></i>
+                                                        
+                                                        <input type="password" class="uk-width-1-1" id="newpasswordconfirm" placeholder="Nieuw wachtwoord bevestigen">
+                                                    </div>
+                                                </div>
+                                                             
+                                            
+                                                
+                                            </div>
+                                            
+                                            
+                                            
+                                            <div class="uk-form uk-width-1-2">
+                                                <div class="uk-form-row">
+                                                    <h2 class="uk-heading-medium uk-margin-bottom uk-width-large-1-2 uk-width-small-1-1">Welkom Jorn!</h2>
+                                                    <label class="uk-form-label" for="">Voornaam</label>
+                                                    <div class="uk-form-controls uk-form-icon uk-width-1-1">
+                                                        <i class="uk-icon-child"></i>
+                                                        
+                                                        <input type="email" class="uk-width-1-1" id="firstname" placeholder="Voornaam">
+                                                    </div>
+                                                </div>
+
+                                                <div class="uk-form-row">
+                                                    <label class="uk-form-label" for="">Achternaam</label>
+                                                    <div class="uk-form-controls uk-form-icon uk-width-1-1">
+                                                        <i class="uk-icon-male"></i>
+                                                        
+                                                        <input type="password" class="uk-width-1-1" id="lastname" placeholder="Achternaam">
+                                                    </div>
+                                                </div>
+
+                                                <div class="uk-form-row">
+                                                    <label class="uk-form-label" for="">Telefoon</label>
+                                                    <div class="uk-form-controls uk-form-icon uk-width-1-1">
+                                                        <i class="uk-icon-phone"></i>
+                                                        
+                                                        <input type="password" class="uk-width-1-1" id="phone" placeholder="Telefoonnummer">
+                                                    </div>
+                                                </div>
+
+                                                <div class="uk-form-row">
+                                                    <label class="uk-form-label" for="">Geboortedatum</label>
+                                                    <div class="uk-form-controls uk-form-icon uk-width-1-1">
+                                                        <i class="uk-icon-calendar-o"></i>
+                                                        
+                                                        <input type="password" class="uk-width-1-1" id="dob" placeholder="Geboortedatum">
+                                                    </div>
+                                                </div>
+
+                                                  
+                                                    
+                                            </div>
+                                        
+                                        </div>
+
+
+                                    
+                                            
+                                    
+                                    <div class="uk-modal-footer uk-text-right">
+                                        <button type="button" class="uk-button uk-button-primary">Wijzig <i class="uk-icon-pencil"></i></button>
+                                    </div>
+                                </div>
+                            </div>
 				
 				
 				
