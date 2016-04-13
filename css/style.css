@@ -83,3 +83,7 @@ background-color:	#009DDC;
 .uk-icon-hand-o-up, .uk-icon-hand-o-up:focus, .uk-icon-hand-o-up:hover{
 	color: #009DDC;
 }
+
+.dividemetmargin{
+	margin: 15px;
+}

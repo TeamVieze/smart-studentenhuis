@@ -52,7 +52,7 @@
             <!-- Einde navigatiebalk --> 
 	
 	
-        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+        <div class="uk-container uk-container-center wrap">
 		
 
 		
@@ -67,7 +67,7 @@
    <!--Einde breadcrumbs-->
 			
 			
-			
+	<hr class="uk-article-divider dividemetmargin">		
 			<!-- Grid voor de twee buttons --> 
             <div class="uk-grid">
                 <div class="uk-width-medium-1-1">
@@ -81,7 +81,7 @@
                     </div>
                 </div>
             </div>
-			
+		
 			<!-- Grid voor de beschikbaarheid --> 
 			<div class="uk-grid">
 			
@@ -103,7 +103,7 @@
 			
 			<!-- Reserveringen --> 
 			<div class="uk-grid">
-				<div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-bottom">
+				<div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
                     <div class="uk-grid">
                         <div class="uk-width-1-6">
                             <i class="uk-icon-user uk-icon-large uk-text-primary"></i>
@@ -115,7 +115,7 @@
                     </div>
                 </div>
 				
-				<div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-bottom">
+				<div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
                     <div class="uk-grid">
                         <div class="uk-width-1-6">
                             <i class="uk-icon-user uk-icon-large uk-text-primary"></i>
