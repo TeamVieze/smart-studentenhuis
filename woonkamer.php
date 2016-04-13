@@ -8,20 +8,20 @@
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
         <link rel="stylesheet" href="css/uikit.min.css">
-		<link rel="stylesheet" href="css/components/progress.css">
-		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/components/progress.css">
+        <link rel="stylesheet" href="css/style.css">
         <script src="js/jquery.min.js"></script>
         <script src="js/uikit.min.js"></script>
-		<script type="text/javascript" src="js/components/sticky.min.js"></script>
-		
+        <script type="text/javascript" src="js/components/sticky.min.js"></script>
+        
     </head>
 
     <body>
 
-	<!-- Navigatiebalk --> 
+    <!-- Navigatiebalk --> 
             <nav class="uk-navbar" data-uk-sticky data-uk-scrollspy="{cls:'uk-animation-slide-top',delay:300}">
-				<div class="uk-container uk-container-center">
-                <a class="uk-navbar-brand uk-hidden-small" href="home.php">Studorm</a>
+                <div class="uk-container uk-container-center">
+                <a class="uk-navbar-brand uk-hidden-small" href="home.php">StuDorm</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
                     <li>
                         <a href="home.php">Home</a>
@@ -36,7 +36,7 @@
                         <a href="woonkamer.php">Woonkamer</a>
                     </li>
                     <li>
-                        <a href="energieverbruik.php">Energieverbuik</a>
+                        <a href="energieverbruik.php">Energieverbruik</a>
                     </li>
                     <li>
                         <a href="instellingen.php">Instellingen</a>
@@ -46,29 +46,29 @@
                     </li>
                 </ul>
                 <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Instellingen</div>
-				</div>
+                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Woonkamer</div>
+                </div>
             </nav>
             <!-- Einde navigatiebalk --> 
-	
-	
-        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
-		
+    
+    
+        <div class="uk-container uk-container-center wrap">
+        
 
-		
-			
+        
+            
 
    
             <!--Breadcrumbs-->
    <ul class="uk-breadcrumb">
     <li><a href="home.php">Home</a></li>
-    <li class="uk-active nu"><span>Badkamer</span></li>
+    <li class="uk-active nu"><span>Woonkamer</span></li>
    </ul>
    <!--Einde breadcrumbs-->
-			
-			
-			
-			<!-- Grid voor de twee buttons --> 
+            
+            
+    <hr class="uk-article-divider dividemetmargin">     
+            <!-- Grid voor de twee buttons --> 
             <div class="uk-grid">
                 <div class="uk-width-medium-1-1">
                     <div class="uk-vertical-align uk-text-center">
@@ -81,10 +81,10 @@
                     </div>
                 </div>
             </div>
-			
-			<!-- Grid voor de beschikbaarheid --> 
-			<div class="uk-grid">
-			
+        
+            <!-- Grid voor de beschikbaarheid --> 
+            <div class="uk-grid">
+            
                 <div class="uk-width-medium-1-1">
 
                     <div class="uk-vertical-align uk-text-center" style="background: url('images/bathroom.jpg') no-repeat; background-size: cover; height: 500px;">
@@ -92,18 +92,18 @@
                             <h1 class="uk-heading-large">De badkamer is op dit moment: <div class="uk-alert uk-alert-danger">BEZET</div></h1>
                             <p class="uk-text-large">Vrij over c.a.:</p>
                            <div class="uk-progress">
-							<div class="uk-progress-bar" style="width: 80%;">4m31s</div>
-						   </div>
+                            <div class="uk-progress-bar" style="width: 80%;">4m31s</div>
+                           </div>
                         </div>
                     </div>
 
                 </div>
             </div>
-			<h2>Recente reserveringen: </h2>
-			
-			<!-- Reserveringen --> 
-			<div class="uk-grid">
-				<div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-bottom">
+            <h2>Recente reserveringen: </h2>
+            
+            <!-- Reserveringen --> 
+            <div class="uk-grid">
+                <div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
                     <div class="uk-grid">
                         <div class="uk-width-1-6">
                             <i class="uk-icon-user uk-icon-large uk-text-primary"></i>
@@ -114,8 +114,8 @@
                         </div>
                     </div>
                 </div>
-				
-				<div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-bottom">
+                
+                <div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
                     <div class="uk-grid">
                         <div class="uk-width-1-6">
                             <i class="uk-icon-user uk-icon-large uk-text-primary"></i>
@@ -126,8 +126,8 @@
                         </div>
                     </div>
                 </div>
-				
-				<div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-bottom">
+                
+                <div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-bottom">
                     <div class="uk-grid">
                         <div class="uk-width-1-6">
                             <i class="uk-icon-user uk-icon-large uk-text-primary"></i>
@@ -138,8 +138,8 @@
                         </div>
                     </div>
                 </div>
-				
-				<div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-bottom">
+                
+                <div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-bottom">
                     <div class="uk-grid">
                         <div class="uk-width-1-6">
                             <i class="uk-icon-user uk-icon-large uk-text-primary"></i>
@@ -150,31 +150,31 @@
                         </div>
                     </div>
                 </div>
-				
-				
-				
-				
-			</div>
-			
-	
-			
-			
-			
-			
+                
+                
+                
+                
+            </div>
+            
+    
+            
+            
+            <hr class="uk-article-divider dividemetmargin"> 
+            
 
         </div>
 
-			<!-- Footer -->	
-		<hr class="uk-article-divider">
-		<footer id="footer">
-		
+            <!-- Footer --> 
+        <hr class="uk-article-divider">
+        <footer id="footer">
+        
             <div id="section-3">
                 <div class="uk-text-center">
                     <div class="StuDormlogo">
                         <div class="uk-container uk-container-center">
                             <div class="uk-grid">
                                 <div class="uk-width-1-1 uk-margin-top uk-margin-bottom">
-                                     <img data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:300}" width="200px" heigh="100px"  src="images/logo2.png" alt="">
+                                     <img data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:300}" width="200px" heigh="100px"  src="images/logowit3.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -193,9 +193,9 @@
                 </div>
             </div>
         </footer>
-		
-				<!-- Off canvas menu --> 	
-		<div id="offcanvas" class="uk-offcanvas">
+        
+                <!-- Off canvas menu -->    
+        <div id="offcanvas" class="uk-offcanvas">
             <div class="uk-offcanvas-bar">
                 <ul class="uk-nav uk-nav-offcanvas">
                     <li class="uk-active">
@@ -217,7 +217,7 @@
                         <a href="layouts_login.html">Login</a>
                     </li>
                 </ul>
-		</div>
-		
+        </div>
+        
     </body>
 </html>

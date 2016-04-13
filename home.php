@@ -22,7 +22,7 @@
 		<!-- Navigatiebalk --> 
             <nav class="uk-navbar" data-uk-sticky data-uk-scrollspy="{cls:'uk-animation-slide-top',delay:300}">
 				<div class="uk-container uk-container-center">
-                <a class="uk-navbar-brand uk-hidden-small" href="home.php">Studorm</a>
+                <a class="uk-navbar-brand uk-hidden-small" href="home.php">StuDorm</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
                    <li class="uk-active">
                         <a href="home.php">Home</a>
@@ -37,7 +37,7 @@
                         <a href="woonkamer.php">Woonkamer</a>
                     </li>
                     <li>
-                        <a href="energieverbruik.php">Energieverbuik</a>
+                        <a href="energieverbruik.php">Energieverbruik</a>
                     </li>
                     <li>
                         <a href="instellingen.php">Instellingen</a>
@@ -47,7 +47,7 @@
                     </li>
                 </ul>
                 <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">StuDorm</div>
+                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Home</div>
 				</div>
             </nav>
             <!-- Einde navigatiebalk -->

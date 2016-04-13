@@ -21,7 +21,7 @@
 	<!-- Navigatiebalk --> 
             <nav class="uk-navbar" data-uk-sticky data-uk-scrollspy="{cls:'uk-animation-slide-top',delay:300}">
 				<div class="uk-container uk-container-center">
-                <a class="uk-navbar-brand uk-hidden-small" href="home.php">Studorm</a>
+                <a class="uk-navbar-brand uk-hidden-small" href="home.php">StuDorm</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
                     <li>
                         <a href="home.php">Home</a>
@@ -36,7 +36,7 @@
                         <a href="woonkamer.php">Woonkamer</a>
                     </li>
                     <li>
-                        <a href="energieverbruik.php">Energieverbuik</a>
+                        <a href="energieverbruik.php">Energieverbruik</a>
                     </li>
                     <li>
                         <a href="instellingen.php">Instellingen</a>
@@ -46,7 +46,7 @@
                     </li>
                 </ul>
                 <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Instellingen</div>
+                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Badkamer</div>
 				</div>
             </nav>
             <!-- Einde navigatiebalk --> 
@@ -174,7 +174,7 @@
                         <div class="uk-container uk-container-center">
                             <div class="uk-grid">
                                 <div class="uk-width-1-1 uk-margin-top uk-margin-bottom">
-                                     <img data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:300}" width="200px" heigh="100px"  src="images/logo2.png" alt="">
+                                     <img data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:300}" width="200px" heigh="100px"  src="images/logowit3.png" alt="">
                                 </div>
                             </div>
                         </div>
