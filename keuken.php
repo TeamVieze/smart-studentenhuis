@@ -26,10 +26,10 @@
                     <li>
                         <a href="home.php">Home</a>
                     </li>
-                    <li>
+                    <li class="uk-active">
                         <a href="keuken.php">Keuken</a>
                     </li>
-                    <li class="uk-active">
+                    <li>
                         <a href="badkamer.php">Badkamer</a>
                     </li>
                     <li>

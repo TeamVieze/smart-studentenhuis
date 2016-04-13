@@ -24,20 +24,20 @@
 				<div class="uk-container uk-container-center">
                 <a class="uk-navbar-brand uk-hidden-small" href="home.php">Studorm</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
-                    <li>
+                   <li class="uk-active">
                         <a href="home.php">Home</a>
                     </li>
                     <li>
-                        <a href="#">Keuken</a>
+                        <a href="keuken.php">Keuken</a>
                     </li>
-                    <li class="uk-active">
+                    <li>
                         <a href="badkamer.php">Badkamer</a>
                     </li>
                     <li>
-                        <a href="#">Woonkamer</a>
+                        <a href="woonkamer.php">Woonkamer</a>
                     </li>
                     <li>
-                        <a href="#">Energieverbuik</a>
+                        <a href="energieverbruik.php">Energieverbuik</a>
                     </li>
                     <li>
                         <a href="instellingen.php">Instellingen</a>

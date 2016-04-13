@@ -27,18 +27,18 @@
                         <a href="home.php">Home</a>
                     </li>
                     <li>
-                        <a href="#">Keuken</a>
+                        <a href="keuken.php">Keuken</a>
                     </li>
-                    <li class="uk-active">
+                    <li>
                         <a href="badkamer.php">Badkamer</a>
                     </li>
                     <li>
-                        <a href="#">Woonkamer</a>
+                        <a href="woonkamer.php">Woonkamer</a>
                     </li>
                     <li>
-                        <a href="#">Energieverbuik</a>
+                        <a href="energieverbruik.php">Energieverbuik</a>
                     </li>
-                    <li>
+                    <li class="uk-active">
                         <a href="instellingen.php">Instellingen</a>
                     </li>
                     <li>
@@ -169,7 +169,7 @@
                             <div class="uk-width-1-2">
                                 <div data-uk-button-radio uk-margin-bottom>
                                     <button class="uk-button">Aan</button>
-                                    <button class="uk-button">Uit</button>
+                                    <button class="uk-button uk-active">Uit</button>
                                 </div>
                             </div>
 
@@ -179,7 +179,7 @@
 
                             <div class="uk-width-1-2">
                                 <div data-uk-button-radio>
-                                    <button class="uk-button">Aan</button>
+                                    <button class="uk-button uk-active">Aan</button>
                                     <button class="uk-button">Uit</button>
                                 </div>
                             </div>
