@@ -28,7 +28,7 @@
                         <input class="uk-width-1-1 uk-form-large" type="text" placeholder="Password">
                     </div>
                     <div class="uk-form-row">
-                        <a class="uk-width-1-1 uk-button uk-button-primary uk-button-large" href="#">Login</a>
+                        <a class="uk-width-1-1 uk-button uk-button-primary uk-button-large" href="home.php">Login</a>
                     </div>
                     <div class="uk-form-row uk-text-small">
                         <label class="uk-float-left"><input type="checkbox"> Remember Me</label>
