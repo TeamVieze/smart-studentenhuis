@@ -262,7 +262,7 @@
                                                     <div class="uk-form-controls uk-form-icon uk-width-1-1">
                                                         <i class="uk-icon-child"></i>
                                                         
-                                                        <input type="email" class="uk-width-1-1" id="firstname" placeholder="Voornaam">
+                                                        <input type="text" class="uk-width-1-1" id="firstname" placeholder="Voornaam">
                                                     </div>
                                                 </div>
 
@@ -271,7 +271,7 @@
                                                     <div class="uk-form-controls uk-form-icon uk-width-1-1">
                                                         <i class="uk-icon-male"></i>
                                                         
-                                                        <input type="password" class="uk-width-1-1" id="lastname" placeholder="Achternaam">
+                                                        <input type="text" class="uk-width-1-1" id="lastname" placeholder="Achternaam">
                                                     </div>
                                                 </div>
 
@@ -280,7 +280,7 @@
                                                     <div class="uk-form-controls uk-form-icon uk-width-1-1">
                                                         <i class="uk-icon-phone"></i>
                                                         
-                                                        <input type="password" class="uk-width-1-1" id="phone" placeholder="Telefoonnummer">
+                                                        <input type="text" class="uk-width-1-1" id="phone" placeholder="Telefoonnummer">
                                                     </div>
                                                 </div>
 
@@ -289,7 +289,7 @@
                                                     <div class="uk-form-controls uk-form-icon uk-width-1-1">
                                                         <i class="uk-icon-calendar-o"></i>
                                                         
-                                                        <input type="password" class="uk-width-1-1" id="dob" placeholder="Geboortedatum">
+                                                        <input type="text"  class="uk-width-1-1" id="dob" placeholder="Geboortedatum">
                                                     </div>
                                                 </div>
 
@@ -340,31 +340,33 @@
             </div>
         </footer>
 			
-			
-		<div id="offcanvas" class="uk-offcanvas">
+		<!-- Off canvas menu -->    
+        <div id="offcanvas" class="uk-offcanvas">
             <div class="uk-offcanvas-bar">
                 <ul class="uk-nav uk-nav-offcanvas">
+                    <li>
+                        <a href="home.php">Home</a>
+                    </li>
+                    <li>
+                        <a href="keuken.php">Keuken</a>
+                    </li>
+                    <li>
+                        <a href="badkamer.php">Badkamer</a>
+                    </li>
+                    <li>
+                        <a href="woonkamer.php">Woonkamer</a>
+                    </li>
+                    <li>
+                        <a href="energieverbruik.php">Energieverbruik</a>
+                    </li>
                     <li class="uk-active">
-                        <a href="layouts_frontpage.html">Frontpage</a>
+                        <a href="instellingen.php">Instellingen</a>
                     </li>
                     <li>
-                        <a href="layouts_portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="layouts_blog.html">Blog</a>z
-                    </li>
-                    <li>
-                        <a href="layouts_documentation.html">Documentation</a>
-                    </li>
-                    <li>
-                        <a href="layouts_contact.html">Contact</a>
-                    </li>
-                    <li>
-                        <a href="layouts_login.html">Login</a>
+                        <a href="index.php">Uitloggen</a>
                     </li>
                 </ul>
-            </div>
         </div>
-
+        
     </body>
-</html>-
+</html>

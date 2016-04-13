@@ -74,8 +74,8 @@
                     <div class="uk-vertical-align uk-text-center">
                         <div class="uk-vertical-align-middle uk-width-1-2">
                             <p>
-                                <a class="uk-button uk-button-primary uk-button-large" href="#">Overzicht</a>
-                                <a class="uk-button uk-button-large" href="#">Reserveer</a>
+                                <a class="uk-button uk-button-primary uk-button-large" href="#modalreserveren" data-uk-modal>Reserveer</a>
+                                <a class="uk-button uk-button-primary uk-button-large" href="#modaloverzicht" data-uk-modal>Overzicht</a>
                             </p>
                         </div>
                     </div>
@@ -87,13 +87,9 @@
             
                 <div class="uk-width-medium-1-1">
 
-                    <div class="uk-vertical-align uk-text-center" style="background: url('images/bathroom.jpg') no-repeat; background-size: cover; height: 500px;">
+                    <div class="uk-vertical-align uk-text-center" style="background: url('images/livingroom.jpg') no-repeat; background-size: cover; height: 500px;">
                         <div class="uk-vertical-align-middle uk-width-1-2">
-                            <h1 class="uk-heading-large">De badkamer is op dit moment: <div class="uk-alert uk-alert-danger">BEZET</div></h1>
-                            <p class="uk-text-large">Vrij over c.a.:</p>
-                           <div class="uk-progress">
-                            <div class="uk-progress-bar" style="width: 80%;">4m31s</div>
-                           </div>
+                            <h2 class="uk-heading-large">De woonkamer is op dit moment: <div class="uk-alert uk-alert-success">VRIJ</div></h2>
                         </div>
                     </div>
 
@@ -162,7 +158,92 @@
             <hr class="uk-article-divider dividemetmargin"> 
             
 
-        </div>
+            </div>
+
+        <div id="modalreserveren" class="uk-modal">
+                                <div class="uk-modal-dialog">
+                                    <button type="button" class="uk-modal-close uk-close"></button>
+                                    <div class="uk-modal-header">
+                                        <h2>Reserveren </h2>
+                                    </div>
+                                    
+                                        <div class="uk-grid">
+                                            <div class="uk-form uk-width-1-1">
+                                    
+                                                <div class="uk-form-row">
+                                                    <label class="uk-form-label" for="">Datum</label>
+                                                    <div class="uk-form-controls uk-form-icon uk-width-1-1">
+                                                        <i class="uk-icon-calendar"></i>
+                                                        
+                                                        <input type="text" class="uk-width-1-1" id="reserverendatum" placeholder="Datum">
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="uk-form-row">
+                                                    <label class="uk-form-label" for="">Begintijd</label>
+                                                    <div class="uk-form-controls uk-form-icon uk-width-1-1">
+                                                        <i class="uk-icon-clock-o"></i>
+                                                        
+                                                        <input type="text" class="uk-width-1-1" id="begintime" placeholder="Begintijd">
+                                                    </div>
+                                                </div>
+
+                                                <div class="uk-form-row">
+                                                    <label class="uk-form-label" for="">Eindtijd</label>
+                                                    <div class="uk-form-controls uk-form-icon uk-width-1-1">
+                                                        <i class="uk-icon-clock-o"></i>
+                                                        
+                                                        <input type="text" class="uk-width-1-1" id="endtime" placeholder="Eindtijd">
+                                                    </div>
+                                                </div>
+                                                
+                                            
+                                                
+                                            </div>
+                                            
+                                            
+                                        
+                                        </div>
+
+
+                                    
+                                            
+                                    
+                                    <div class="uk-modal-footer uk-text-right">
+                                        <button type="button" class="uk-button uk-button-primary">Reserveren</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="modaloverzicht" class="uk-modal">
+                                <div class="uk-modal-dialog">
+                                    <button type="button" class="uk-modal-close uk-close"></button>
+                                    <div class="uk-modal-header">
+                                        <h2>Overzicht </h2>
+                                    </div>
+                                    
+                                        <div class="uk-grid">
+                                            <div class="uk-form uk-width-1-1">
+                                    
+                                               
+                                                
+                                            
+                                                
+                                            </div>
+                                            
+                                            
+                                        
+                                        </div>
+
+
+                                    
+                                            
+                                    
+                                    <div class="uk-modal-footer uk-text-right">
+                                        <button type="button" class="uk-button uk-button-primary">Sluiten</button>
+                                    </div>
+                                </div>
+                            </div>
 
             <!-- Footer --> 
         <hr class="uk-article-divider">
@@ -198,23 +279,26 @@
         <div id="offcanvas" class="uk-offcanvas">
             <div class="uk-offcanvas-bar">
                 <ul class="uk-nav uk-nav-offcanvas">
+                    <li>
+                        <a href="home.php">Home</a>
+                    </li>
+                    <li>
+                        <a href="keuken.php">Keuken</a>
+                    </li>
+                    <li>
+                        <a href="badkamer.php">Badkamer</a>
+                    </li>
                     <li class="uk-active">
-                        <a href="layouts_frontpage.html">Frontpage</a>
+                        <a href="woonkamer.php">Woonkamer</a>
                     </li>
                     <li>
-                        <a href="layouts_portfolio.html">Portfolio</a>
+                        <a href="energieverbruik.php">Energieverbruik</a>
                     </li>
                     <li>
-                        <a href="layouts_blog.html">Blog</a>z
+                        <a href="instellingen.php">Instellingen</a>
                     </li>
                     <li>
-                        <a href="layouts_documentation.html">Documentation</a>
-                    </li>
-                    <li>
-                        <a href="layouts_contact.html">Contact</a>
-                    </li>
-                    <li>
-                        <a href="layouts_login.html">Login</a>
+                        <a href="index.php">Uitloggen</a>
                     </li>
                 </ul>
         </div>
