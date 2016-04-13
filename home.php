@@ -75,7 +75,7 @@
                                     <div class="uk-dropdown">
                                         <ul class="uk-nav uk-nav-dropdown">
                                             <li class="uk-nav-header">Aanwezige huisgenoten:</li>
-                                            <li><a href="#"><i class="uk-icon-check"></i> Marieke Bos</a></li>
+                                            <li><a href="#"><i class="uk-icon-check"></i> Jorn Huisman</a></li>
                                             <li><a href="#"><i class="uk-icon-check"></i> Tim Nijgaard</a></li>
                                             <li class="uk-nav-divider"></li>
 											<li class="uk-nav-header">Niet aanwezig:</li>
@@ -126,7 +126,7 @@
 					<figure class="uk-overlay uk-width-1-1" href="">
 						<img src="images/bathroom.jpg" width="" height="" alt="">
 						  <figcaption class="uk-overlay-panel uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center">
-							 <h2 class="uk-heading-medium">De Badkamer is op dit moment: <div class="uk-alert uk-alert-danger">BEZET</div></h2>
+							 <h2 class="uk-heading-medium">De badkamer is op dit moment: <div class="uk-alert uk-alert-danger">BEZET</div></h2>
 							 <a class="uk-position-cover" href="badkamer.php"></a>
 						</figcaption>
 					</figure>
@@ -191,35 +191,33 @@
 		
 		
 
-        <!--slidemenu-->
+       <!-- Off canvas menu -->    
         <div id="offcanvas" class="uk-offcanvas">
             <div class="uk-offcanvas-bar">
                 <ul class="uk-nav uk-nav-offcanvas">
                     <li class="uk-active">
-                        <a href="layouts_frontpage.html">Frontpage</a>
+                        <a href="home.php">Home</a>
                     </li>
                     <li>
-                        <a href="layouts_portfolio.html">Portfolio</a>
+                        <a href="keuken.php">Keuken</a>
                     </li>
                     <li>
-                        <a href="layouts_blog.html">Blog</a>
+                        <a href="badkamer.php">Badkamer</a>
                     </li>
                     <li>
-                        <a href="layouts_documentation.html">Documentation</a>
+                        <a href="woonkamer.php">Woonkamer</a>
                     </li>
                     <li>
-                        <a href="layouts_contact.html">Contact</a>
+                        <a href="energieverbruik.php">Energieverbruik</a>
                     </li>
                     <li>
-                        <a href="layouts_login.html">Login</a>
+                        <a href="instellingen.php">Instellingen</a>
+                    </li>
+                    <li>
+                        <a href="index.php">Uitloggen</a>
                     </li>
                 </ul>
-            </div>	
-
-			
-			
         </div>
-		
-
-
+        
+    </body>
 </html>
