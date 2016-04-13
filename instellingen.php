@@ -156,7 +156,7 @@
                             </div>
 
                             <div class="uk-width-1-1">
-                                <a class="uk-button uk-button-primary uk-button-large uk-margin-top" href="#">Huizen beheren <i class="uk-icon-arrow-right"></i></a>
+                                <a class="uk-button uk-button-primary uk-button-large uk-margin-top" href="huizen.php">Huizen beheren <i class="uk-icon-arrow-right"></i></a>
                             </div>
 
                             <div class="uk-width-1-1">
