@@ -116,3 +116,7 @@ background-color:	#009DDC;
 	margin: 15px;
 }
 
+.uk-navbar-brand > .uk-navbar-center > .uk-visible-small{
+	font-size: 0.9em;
+}
+
