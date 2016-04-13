@@ -65,7 +65,7 @@
 			
             <div class="uk-grid">
                 <div class="uk-width-1-1 uk-margin-bottom">
-                    <h2 class="uk-h1"><i class="uk-icon-user uk-text-primary"></i> Jorn Huisman</h2>
+                    <h2 class="uk-h1">Jorn Huisman</h2>
                 </div>
 
                 <div class="uk-width-large-1-2 uk-width-medium-1-1 uk-width-small-1-1 uk-margin-bottom">
