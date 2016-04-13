@@ -64,10 +64,10 @@
             
             <div class="uk-grid">
 			
-			<h2 class="uk-heading-medium uk-margin-bottom">Welkom Jorn!</h2>
+			<h2 class="uk-heading-medium uk-margin-bottom uk-width-large-1-2 uk-width-small-1-1">Welkom Jorn!</h2>
                 <!--Buttons huisgenoten en sensoren -->
 				
-                <div class="uk-width-large-1-1 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-bottom uk-container-center">
+                <div class="uk-width-large-5-10 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-bottom uk-container-center">
 
 				
 								<div class="uk-button-dropdown uk-margin-bottom" data-uk-dropdown="{mode:'click'}">
