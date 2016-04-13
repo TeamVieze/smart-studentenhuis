@@ -71,7 +71,7 @@
 
 				
 								<div class="uk-button-dropdown uk-margin-bottom" data-uk-dropdown="{mode:'click'}">
-                                    <button class="uk-button">Huisgenoten <i class="uk-icon-caret-down"></i></button>
+                                    <button class="uk-button uk-button-primary">Huisgenoten <i class="uk-icon-caret-down"></i></button>
                                     <div class="uk-dropdown">
                                         <ul class="uk-nav uk-nav-dropdown">
                                             <li class="uk-nav-header">Aanwezige huisgenoten:</li>
@@ -86,7 +86,7 @@
                                 </div>
 								
 								<div class="uk-button-dropdown uk-margin-bottom	" data-uk-dropdown="{mode:'click'}">
-                                    <button class="uk-button">Sensoren <i class="uk-icon-caret-down"></i></button>
+                                    <button class="uk-button uk-button-primary">Sensoren <i class="uk-icon-caret-down"></i></button>
                                     <div class="uk-dropdown">
                                         <ul class="uk-nav uk-nav-dropdown">
                                             <li class="uk-nav-header">Sensoren</li>
