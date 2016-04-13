@@ -50,7 +50,19 @@
 	z-index: 999999;
 }
 
+.uk-comment{
+	padding: 10px;
 
+}
+
+.overzichtdel{
+	float: right;
+	margin-bottom: 5;
+}
+
+.dividereserv{
+	margin-top: 5px;
+}
 
 .uk-navbar-nav > li > a{
 	color: #FFF;
