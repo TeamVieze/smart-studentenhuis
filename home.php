@@ -50,7 +50,7 @@
                 <div class="uk-navbar-brand uk-navbar-center uk-visible-small">StuDorm</div>
 				</div>
             </nav>
-            <!-- Einde navigatiebalk --> 
+            <!-- Einde navigatiebalk -->
 
         <div class="uk-container uk-container-center wrap">
 
@@ -60,7 +60,7 @@
 				<li class="uk-active"><span>...</span></li>
             </ul>
 
-
+			<hr class="uk-article-divider dividemetmargin">	
             
             <div class="uk-grid">
 			
@@ -103,6 +103,7 @@
 				</div>
 
                 <!--Einde buttons huisgenoten en sensoren -->
+				
 				
 				
 				
@@ -155,7 +156,7 @@
                 <!--Eind buttons keuken, badkamer, woonkamer en energieverbruik-->
 			</div>
 
-
+			<hr class="uk-article-divider dividemetmargin">	
 
         </div>
 		<hr class="uk-article-divider">

@@ -159,7 +159,7 @@
 	
 			
 			
-			
+			<hr class="uk-article-divider dividemetmargin">	
 			
 
         </div>
