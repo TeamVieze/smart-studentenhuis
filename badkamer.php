@@ -18,13 +18,9 @@
 
     <body>
 
-        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
-		
-
-		
-			
-<!-- Navigatiebalk --> 
-            <nav class="uk-navbar" data-uk-sticky>
+	<!-- Navigatiebalk --> 
+            <nav class="uk-navbar" data-uk-sticky data-uk-scrollspy="{cls:'uk-animation-slide-top',delay:300}">
+				<div class="uk-container uk-container-center">
                 <a class="uk-navbar-brand uk-hidden-small" href="home.php">Studorm</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
                     <li>
@@ -51,13 +47,22 @@
                 </ul>
                 <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
                 <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Instellingen</div>
+				</div>
             </nav>
             <!-- Einde navigatiebalk --> 
+	
+	
+        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+		
+
+		
+			
+
    
             <!--Breadcrumbs-->
    <ul class="uk-breadcrumb">
     <li><a href="home.php">Home</a></li>
-    <li class="uk-active"><span>Badkamer</span></li>
+    <li class="uk-active nu"><span>Badkamer</span></li>
    </ul>
    <!--Einde breadcrumbs-->
 			
@@ -151,8 +156,18 @@
 				
 			</div>
 			
-		<!-- Footer -->	
+	
+			
+			
+			
+			
+
+        </div>
+
+			<!-- Footer -->	
+		<hr class="uk-article-divider">
 		<footer id="footer">
+		
             <div id="section-3">
                 <div class="uk-text-center">
                     <div class="StuDormlogo">
@@ -178,11 +193,8 @@
                 </div>
             </div>
         </footer>
-			
-			
-			
-			
-		<!-- Off canvas menu --> 	
+		
+				<!-- Off canvas menu --> 	
 		<div id="offcanvas" class="uk-offcanvas">
             <div class="uk-offcanvas-bar">
                 <ul class="uk-nav uk-nav-offcanvas">
@@ -205,8 +217,7 @@
                         <a href="layouts_login.html">Login</a>
                     </li>
                 </ul>
-            </div>
-        </div>
-
+		</div>
+		
     </body>
 </html>

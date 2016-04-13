@@ -1,16 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
 #username{
 	width: 200px !important;
 }
 
+
+.uk-container{
+	font-family: 'Raleway', sans-serif;
+}
+
+.uk-breadcrumb > li{
+	background-color: #06BAFF;
+	color: white;
+	padding: 5px;
+
+	width: auto;
+}
+
 .uk-navbar-brand{
-	
-
+	color: white;
 }
 
-footer{
-	background-color: #fafaed;
+.uk-breadcrumb > li, .uk-breadcrumb > li > a, .uk-breadcrumb > li > span{
+	color: #FFF;
 }
-
 
 .uk-visible-small{
 	color: white;
@@ -22,11 +36,11 @@ footer{
 }
 
 .uk-navbar > a{
-	color: white;
+	color: #FFF;
 }
 
 .uk-navbar-nav > li > a{
-	color: white;
+	color: #FFF;
 }
 
 

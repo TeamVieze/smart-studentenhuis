@@ -17,12 +17,10 @@
     </head>
 
     <body>
-
-        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
-			
-			
+	
 			<!-- Navigatiebalk --> 
-            <nav class="uk-navbar" data-uk-sticky>
+            <nav class="uk-navbar" data-uk-sticky data-uk-scrollspy="{cls:'uk-animation-slide-top',delay:300}">
+				<div class="uk-container uk-container-center">
                 <a class="uk-navbar-brand uk-hidden-small" href="home.php">Studorm</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
                     <li>
@@ -31,7 +29,7 @@
                     <li>
                         <a href="#">Keuken</a>
                     </li>
-                    <li>
+                    <li class="uk-active">
                         <a href="badkamer.php">Badkamer</a>
                     </li>
                     <li>
@@ -40,7 +38,7 @@
                     <li>
                         <a href="#">Energieverbuik</a>
                     </li>
-                    <li class="uk-active">
+                    <li>
                         <a href="instellingen.php">Instellingen</a>
                     </li>
                     <li>
@@ -49,13 +47,19 @@
                 </ul>
                 <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
                 <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Instellingen</div>
+				</div>
             </nav>
-			<!-- Einde navigatiebalk --> 
+            <!-- Einde navigatiebalk --> 
+
+        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+			
+			
+
    
             <!--Breadcrumbs-->
             <ul class="uk-breadcrumb">
                 <li><a href="home.php">Home</a></li>
-                <li class="uk-active"><span>Instellingen</span></li>
+                <li class="uk-active nu"><span>Instellingen</span></li>
             </ul>
             <!--Einde breadcrumbs-->
 			
@@ -197,7 +201,7 @@
 				
 				
 		</div>
-		
+		<hr class="uk-article-divider">
 		<!-- Footer -->	
 		<footer id="footer">
             <div id="section-3">
