@@ -173,7 +173,7 @@
                 <div class="uk-width-medium-1-5 uk-text-center">
                     <div class="uk-thumbnail uk-overlay-hover uk-border-circle">
                         <figure class="uk-overlay">
-                            <img class="uk-border-circle" width="200" height="200" src="images/student4.jpg" alt="">
+                            <img class="uk-border-circle" width="200" height="200" src="images/student2.jpg" alt="">
                             <figcaption class="uk-overlay-panel uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center uk-border-circle">
                                 <div>
                                     <a href="#" class="uk-icon-button uk-icon-envelope"></a>
