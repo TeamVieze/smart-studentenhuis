@@ -47,29 +47,31 @@
                     </li>
                 </ul>
                 <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Instellingen</div>
+                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">StuDorm</div>
 				</div>
             </nav>
             <!-- Einde navigatiebalk --> 
 
-        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+        <div class="uk-container uk-container-center wrap">
 
 
             <ul class="uk-breadcrumb">
-                <li class="uk-active nu">Home</li>
+                <li class="uk-active nu">Home</li>	
 				<li class="uk-active"><span>...</span></li>
             </ul>
 
 
             
             <div class="uk-grid">
+			
+			<h2 class="uk-heading-medium uk-margin-bottom">Welkom Koen!</h2>
                 <!--Buttons huisgenoten en sensoren -->
 				
-                <div class="uk-width-large-7-10 uk-width-medium-1-1 uk-width-small-1-1 uk-margin-bottom uk-container-center">
+                <div class="uk-width-large-1-1 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-bottom uk-container-center">
 
 				
 								<div class="uk-button-dropdown uk-margin-bottom" data-uk-dropdown="{mode:'click'}">
-                                    <button class="uk-button">Huisgenoten <i class="uk-icon-caret-down"></i></button>
+                                    <button class="uk-button uk-button-primary">Huisgenoten <i class="uk-icon-caret-down"></i></button>
                                     <div class="uk-dropdown">
                                         <ul class="uk-nav uk-nav-dropdown">
                                             <li class="uk-nav-header">Aanwezige huisgenoten:</li>
@@ -84,7 +86,7 @@
                                 </div>
 								
 								<div class="uk-button-dropdown uk-margin-bottom	" data-uk-dropdown="{mode:'click'}">
-                                    <button class="uk-button">Sensoren <i class="uk-icon-caret-down"></i></button>
+                                    <button class="uk-button uk-button-primary">Sensoren <i class="uk-icon-caret-down"></i></button>
                                     <div class="uk-dropdown">
                                         <ul class="uk-nav uk-nav-dropdown">
                                             <li class="uk-nav-header">Sensoren</li>
@@ -105,34 +107,50 @@
 				
 				
                 <!--Buttons keuken, badkamer, woonkamer en energieverbruik-->
-    			<div class="uk-width-large-4-10 uk-width-small-1-2 uk-margin-bottom uk-container-center">
-    				<a class="uk-thumbnail  uk-width-1-1" href="" >
-    					<img src="images/kitchen.jpg" alt="">
-    					<div class="uk-thumbnail-caption">Keuken</div>
-					</a>
+    			<div class="uk-width-large-1-2 uk-width-small-1-1 uk-margin-bottom uk-container-center">
+				
+    			
+					<figure class="uk-overlay uk-width-1-1" href="">
+						<img src="images/kitchen.jpg" width="" height="" alt="">
+						  <figcaption class="uk-overlay-panel uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center">
+							 <h2 class="uk-heading-medium">De keuken is op dit moment: <div class="uk-alert uk-alert-success">VRIJ</div></h2>
+							 <a class="uk-position-cover" href="keuken.php"></a>
+						</figcaption>
+					</figure>
+					
+					
     			</div>
 
-    			<div class="uk-width-large-4-10 uk-width-small-1-2 uk-margin-bottom uk-container-center">
-    				<a class="uk-thumbnail uk-width-1-1" href="">
-    					<img src="images/bathroom.jpg" alt="">
-    					<div class="uk-thumbnail-caption">Badkamer</div>
-					</a>
+    			<div class="uk-width-large-1-2 uk-width-small-1-1 uk-margin-bottom uk-container-center">
+					<figure class="uk-overlay uk-width-1-1" href="">
+						<img src="images/bathroom.jpg" width="" height="" alt="">
+						  <figcaption class="uk-overlay-panel uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center">
+							 <h2 class="uk-heading-medium">De Badkamer is op dit moment: <div class="uk-alert uk-alert-danger">BEZET</div></h2>
+							 <a class="uk-position-cover" href="badkamer.php"></a>
+						</figcaption>
+					</figure>
     			</div>
 			
 
 			
-    			<div class="uk-width-large-4-10 uk-width-small-1-2 uk-margin-bottom uk-container-center">
-    				<a class="uk-thumbnail uk-width-1-1" href="">
-    					<img src="images/livingroom.jpg" alt="">
-    					<div class="uk-thumbnail-caption">Woonkamer</div>
-					</a>
+    			<div class="uk-width-large-1-2 uk-width-small-1-1 uk-margin-bottom uk-container-center">
+					<figure class="uk-overlay uk-width-1-1" href="">
+						<img src="images/livingroom.jpg" width="" height="" alt="">
+						  <figcaption class="uk-overlay-panel uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center">
+							 <h2 class="uk-heading-medium">De woonkamer is op dit moment: <div class="uk-alert uk-alert-success">VRIJ</div></h2>
+							 <a class="uk-position-cover" href="woonkamer.php"></a>
+						</figcaption>
+					</figure>
     			</div>
 
-    			<div class="uk-width-large-4-10 uk-width-small-1-2 uk-margin-bottom uk-container-center">
-    				<a class="uk-thumbnail uk-width-1-1" href="">
-    					<img src="images/power.jpg" alt="">
-    					<div class="uk-thumbnail-caption">Energieverbruik</div>
-					</a>
+    			<div class="uk-width-large-1-2 uk-width-small-1-1 uk-margin-bottom uk-container-center">
+					<figure class="uk-overlay uk-width-1-1" href="">
+						<img src="images/power.jpg" width="" height="" alt="">
+						  <figcaption class="uk-overlay-panel uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center">
+							 <h2 class="uk-heading-medium">Je stroomverbruik is: <div class="uk-alert uk-alert-warning">Gemiddeld</div></h2>
+							 <a class="uk-position-cover" href="energieverbruik.php"></a>
+						</figcaption>
+					</figure>
     			</div>
                 <!--Eind buttons keuken, badkamer, woonkamer en energieverbruik-->
 			</div>
