@@ -65,7 +65,7 @@
             <div class="uk-grid">
                 <!--Buttons huisgenoten en sensoren -->
 				
-                <div class="uk-width-large-7-10 uk-width-medium-1-1 uk-width-small-1-1 uk-margin-bottom uk-container-center">
+                <div class="uk-width-large-1-1 uk-width-medium-1-2 uk-width-small-1-1 uk-margin-bottom uk-container-center">
 
 				
 								<div class="uk-button-dropdown uk-margin-bottom" data-uk-dropdown="{mode:'click'}">
@@ -105,14 +105,14 @@
 				
 				
                 <!--Buttons keuken, badkamer, woonkamer en energieverbruik-->
-    			<div class="uk-width-large-4-10 uk-width-small-1-2 uk-margin-bottom uk-container-center">
+    			<div class="uk-width-large-1-2 uk-width-small-1-1 uk-margin-bottom uk-container-center">
     				<a class="uk-thumbnail  uk-width-1-1" href="" >
     					<img src="images/kitchen.jpg" alt="">
     					<div class="uk-thumbnail-caption">Keuken</div>
 					</a>
     			</div>
 
-    			<div class="uk-width-large-4-10 uk-width-small-1-2 uk-margin-bottom uk-container-center">
+    			<div class="uk-width-large-1-2 uk-width-small-1-1 uk-margin-bottom uk-container-center">
     				<a class="uk-thumbnail uk-width-1-1" href="">
     					<img src="images/bathroom.jpg" alt="">
     					<div class="uk-thumbnail-caption">Badkamer</div>
@@ -121,14 +121,14 @@
 			
 
 			
-    			<div class="uk-width-large-4-10 uk-width-small-1-2 uk-margin-bottom uk-container-center">
+    			<div class="uk-width-large-1-2 uk-width-small-1-1 uk-margin-bottom uk-container-center">
     				<a class="uk-thumbnail uk-width-1-1" href="">
     					<img src="images/livingroom.jpg" alt="">
     					<div class="uk-thumbnail-caption">Woonkamer</div>
 					</a>
     			</div>
 
-    			<div class="uk-width-large-4-10 uk-width-small-1-2 uk-margin-bottom uk-container-center">
+    			<div class="uk-width-large-1-2 uk-width-small-1-1 uk-margin-bottom uk-container-center">
     				<a class="uk-thumbnail uk-width-1-1" href="">
     					<img src="images/power.jpg" alt="">
     					<div class="uk-thumbnail-caption">Energieverbruik</div>
