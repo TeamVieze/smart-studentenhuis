@@ -75,7 +75,7 @@
                         <div class="uk-vertical-align-middle uk-width-1-2">
                             <p>
                                 <a class="uk-button uk-button-primary uk-button-large uk-margin-bottom" href="#modalreserveren" data-uk-modal>Reserveer</a>
-                                <a class="uk-button uk-button-primary uk-button-large" href="#modaloverzicht" data-uk-modal>Overzicht</a>
+                                <a class="uk-button uk-button-primary uk-button-large uk-margin-bottom" href="#modaloverzicht" data-uk-modal>Overzicht</a>
                             </p>
                         </div>
                     </div>
