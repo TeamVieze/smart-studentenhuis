@@ -21,7 +21,7 @@
 			<!-- Navigatiebalk --> 
             <nav class="uk-navbar" data-uk-sticky data-uk-scrollspy="{cls:'uk-animation-slide-top',delay:300}">
 				<div class="uk-container uk-container-center">
-                <a class="uk-navbar-brand uk-hidden-small" href="home.php">Studorm</a>
+                <a class="uk-navbar-brand uk-hidden-small" href="home.php">StuDorm</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
                     <li>
                         <a href="home.php">Home</a>
@@ -36,7 +36,7 @@
                         <a href="woonkamer.php">Woonkamer</a>
                     </li>
                     <li>
-                        <a href="energieverbruik.php">Energieverbuik</a>
+                        <a href="energieverbruik.php">Energieverbruik</a>
                     </li>
                     <li class="uk-active">
                         <a href="instellingen.php">Instellingen</a>
@@ -203,7 +203,7 @@
                                             <div class="uk-form uk-width-1-2">
 
                                                 <div class="uk-form-row">
-                                                    <h2 class="uk-heading-medium uk-margin-bottom uk-width-large-1-2 uk-width-small-1-1">Welkom Jorn!</h2>
+                                                    <h2 class="uk-h3 uk-margin-bottom">E-mailadres</h2>
                                                     <label class="uk-form-label" for="">Nieuw e-mailadres</label>
                                                     <div class="uk-form-controls uk-form-icon uk-width-1-1">
                                                         <i class="uk-icon-envelope"></i>
@@ -221,7 +221,7 @@
                                                     </div>
                                                 </div>   
 
-                                                <h2 class="uk-heading-medium uk-margin-bottom uk-width-large-1-2 uk-width-small-1-1">Welkom Jorn!</h2>
+                                                <h2 class="uk-h3 uk-margin-bottom">Wachtwoord</h2>
                                                 <div class="uk-form-row">
                                                     <label class="uk-form-label" for="">Huidig wachtwoord</label>
                                                     <div class="uk-form-controls uk-form-icon uk-width-1-1">
@@ -257,7 +257,7 @@
                                             
                                             <div class="uk-form uk-width-1-2">
                                                 <div class="uk-form-row">
-                                                    <h2 class="uk-heading-medium uk-margin-bottom uk-width-large-1-2 uk-width-small-1-1">Welkom Jorn!</h2>
+                                                    <h2 class="uk-h3 uk-margin-bottom">Persoonlijke gegevens</h2>
                                                     <label class="uk-form-label" for="">Voornaam</label>
                                                     <div class="uk-form-controls uk-form-icon uk-width-1-1">
                                                         <i class="uk-icon-child"></i>
@@ -307,11 +307,10 @@
                                         <button type="button" class="uk-button uk-button-primary">Wijzig <i class="uk-icon-pencil"></i></button>
                                     </div>
                                 </div>
-                            </div>
-				
-				
+                            </div>	
 				
 		</div>
+
 		<hr class="uk-article-divider">
 		<!-- Footer -->	
 		<footer id="footer">
@@ -321,7 +320,7 @@
                         <div class="uk-container uk-container-center">
                             <div class="uk-grid">
                                 <div class="uk-width-1-1 uk-margin-top uk-margin-bottom">
-                                     <img data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:300}" width="200px" heigh="100px"  src="images/logo2.png" alt="">
+                                     <img data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:300}" width="200px" heigh="100px"  src="images/logowit3.png" alt="">
                                 </div>
                             </div>
                         </div>
