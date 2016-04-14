@@ -133,49 +133,57 @@
             <div class="uk-grid" data-uk-grid-margin>
                 <div class="uk-width-medium-1-4 uk-text-center">
                     <div class="uk-thumbnail uk-overlay-hover uk-border-circle">
+                        <a href="leden.php">
                         <figure class="uk-overlay">
-                            <img class="uk-border-circle" width="200" height="200" src="images/student3.jpg" alt="">
+                            <img class="uk-border-circle" width="200" height="200" src="images/studenthome1.jpg" alt="">
                             <figcaption class="uk-overlay-panel uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center uk-border-circle">
                             </figcaption>
                         </figure>
+                        </a>
                     </div>
-                    <h2 class="uk-margin-bottom-remove">Jorn Huisman</h2>
-                    <p class="uk-text-large uk-margin-top-remove uk-text-muted">Bewoner</p>
+                    <h2 class="uk-margin-bottom-remove">Hoogstraat 9A</h2>
+                    <p class="uk-text-large uk-margin-top-remove uk-text-muted">Groningen</p>
                 </div>
 
                 <div class="uk-width-medium-1-4 uk-text-center">
                     <div class="uk-thumbnail uk-overlay-hover uk-border-circle">
+                        <a href="leden.php">
                         <figure class="uk-overlay">
-                            <img class="uk-border-circle" width="200" height="200" src="images/student2.jpg" alt="">
+                            <img class="uk-border-circle" width="200" height="200" src="images/studenthome2.jpg" alt="">
                             <figcaption class="uk-overlay-panel uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center uk-border-circle">
                             </figcaption>
                         </figure>
+                        </a>
                     </div>
-                    <h2 class="uk-margin-bottom-remove">Tim Nijgaard</h2>
-                    <p class="uk-text-large uk-margin-top-remove uk-text-muted">Bewoner</p>
+                    <h2 class="uk-margin-bottom-remove">Zuiderlaan 2</h2>
+                    <p class="uk-text-large uk-margin-top-remove uk-text-muted">Meppel</p>
                 </div>
                 <div class="uk-width-medium-1-4 uk-text-center">
                     <div class="uk-thumbnail uk-overlay-hover uk-border-circle">
+                        <a href="leden.php">
                         <figure class="uk-overlay">
-                            <img class="uk-border-circle" width="200" height="200" src="images/student4.jpg" alt="">
+                            <img class="uk-border-circle" width="200" height="200" src="images/studenthome3.jpg" alt="">
                             <figcaption class="uk-overlay-panel uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center uk-border-circle">
                             </figcaption>
                         </figure>
+                        </a>
                     </div>
-                    <h2 class="uk-margin-bottom-remove">Koen Bakker</h2>
-                    <p class="uk-text-large uk-margin-top-remove uk-text-muted">Bewoner</p>
+                    <h2 class="uk-margin-bottom-remove">Hoendiep 49A</h2>
+                    <p class="uk-text-large uk-margin-top-remove uk-text-muted">Groningen</p>
                 </div>
 
                 <div class="uk-width-medium-1-4 uk-text-center">
                     <div class="uk-thumbnail uk-overlay-hover uk-border-circle">
+                    <a href="leden.php">
                         <figure class="uk-overlay">
-                            <img class="uk-border-circle" width="200" height="200" src="images/student1.jpg" alt="">
+                            <img class="uk-border-circle" width="200" height="200" src="images/studenthome4.jpg" alt="">
                             <figcaption class="uk-overlay-panel uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center uk-border-circle">
                             </figcaption>
                         </figure>
+                    </a>
                     </div>
-                    <h2 class="uk-margin-bottom-remove">Nadja Regter</h2>
-                    <p class="uk-text-large uk-margin-top-remove uk-text-muted">Bewoner</p>
+                    <h2 class="uk-margin-bottom-remove">Heerengracht 17</h2>
+                    <p class="uk-text-large uk-margin-top-remove uk-text-muted">Amsterdam</p>
                 </div>
 
             </div>
