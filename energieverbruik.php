@@ -94,24 +94,194 @@
                 </div>
 				
 					
-                        <div class="uk-width-medium-1-3">
+                        <div class="uk-width-medium-3-4">
                             <div class="uk-panel uk-panel-box">
-                                <h3 class="uk-panel-title">Title</h3>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                <div class="uk-panel-badge uk-badge">Rank 2</div>
+                                <h3 class="uk-panel-title">Mijn energieverbruik</h3>
+                                <ul class="uk-subnav uk-subnav-pill" data-uk-switcher="{connect:'#subnav-pill-content-1'}">
+                                <li class="uk-active"><a href="#">24H</a></li>
+                                <li><a href="#">1-Week</a></li>
+                                <li><a href="#">1-Maand</a></li>
+                                
+                            </ul>
+
+                            <ul id="subnav-pill-content-1" class="uk-switcher">
+                                <li class="uk-active">
+                                    <dl class="uk-description-list-horizontal">
+                                        <dt>Stopcontact A</dt>
+                                        <div class="uk-grid">
+                                            <div class="uk-width-1-3">
+                                                <dd>
+                                                    <div class="uk-alert uk-alert-danger">466 W</div>
+                                                </dd>
+                                            </div>
+                                            <div class="uk-width-2-3">
+                                                <div class="uk-alert uk-alert-danger">Hoog</div>
+                                            </div>
+
+                                        </div>
+
+                                        <dt>Stopcontact B</dt>
+                                        <div class="uk-grid">
+                                            <div class="uk-width-1-3">
+                                                <dd>
+                                                    <div class="uk-alert uk-alert-success">300 W</div>
+                                                </dd>
+                                            </div>
+                                            <div class="uk-width-2-3">
+                                                <div class="uk-alert uk-alert-success">Laag</div>
+                                            </div>
+
+                                        </div>
+
+                                        <dt>Stopcontact C</dt>
+                                        <div class="uk-grid">
+                                            <div class="uk-width-1-3">
+                                                <dd>
+                                                    <div class="uk-alert uk-alert-danger">620 W</div>
+                                                </dd>
+                                            </div>
+                                            <div class="uk-width-2-3">
+                                                <div class="uk-alert uk-alert-danger">Hoog</div>
+                                            </div>
+
+                                        </div>
+
+                                        <dt>Totaal</dt>
+                                        <div class="uk-grid">
+                                            <div class="uk-width-1-3">
+                                                <dd>
+                                                    <div class="uk-alert uk-alert-warning">1386 W</div>
+                                                </dd>
+                                            </div>
+                                            <div class="uk-width-2-3">
+                                                <div class="uk-alert uk-alert-warning">Gemiddeld</div>
+                                            </div>
+
+                                        </div>
+
+                                    </dl>
+                                </li>
+
+                                <li>
+        
+        
+                                    <dl class="uk-description-list-horizontal">
+                                        <dt>Stopcontact A</dt>
+                                        <div class="uk-grid">
+                                            <div class="uk-width-1-3">
+                                                <dd>
+                                                    <div class="uk-alert uk-alert-warning">2100 W</div>
+                                                </dd>
+                                            </div>
+                                            <div class="uk-width-2-3">
+                                                <div class="uk-alert uk-alert-warning">Gemiddeld</div>
+                                            </div>
+
+                                        </div>
+
+                                       <dt>Stopcontact B</dt>
+                                        <div class="uk-grid">
+                                            <div class="uk-width-1-3">
+                                                <dd>
+                                                    <div class="uk-alert uk-alert-success">1800 W</div>
+                                                </dd>
+                                            </div>
+                                            <div class="uk-width-2-3">
+                                                <div class="uk-alert uk-alert-success">Laag</div>
+                                            </div>
+
+                                        </div>
+
+                                        <dt>Stopcontact C</dt>
+                                        <div class="uk-grid">
+                                            <div class="uk-width-1-3">
+                                                <dd>
+                                                    <div class="uk-alert uk-alert-danger">2630 W</div>
+                                                </dd>
+                                            </div>
+                                            <div class="uk-width-2-3">
+                                                <div class="uk-alert uk-alert-danger">Hoog</div>
+                                            </div>
+
+                                        </div>
+
+                                        <dt>Totaal</dt>
+                                        <div class="uk-grid">
+                                            <div class="uk-width-1-3">
+                                                <dd>
+                                                    <div class="uk-alert uk-alert-warning">6530 W</div>
+                                                </dd>
+                                            </div>
+                                            <div class="uk-width-2-3">
+                                                <div class="uk-alert uk-alert-warning">Gemiddeld</div>
+                                            </div>
+
+                                        </div>
+
+
+                                    </dl>
+                                </li>
+
+                                <li>
+                                    <dl class="uk-description-list-horizontal">
+                                        <dt>Stopcontact A</dt>
+                                        <div class="uk-grid">
+                                            <div class="uk-width-1-3">
+                                                <dd>
+                                                    <div class="uk-alert uk-alert-danger">11500 W</div>
+                                                </dd>
+                                            </div>
+                                            <div class="uk-width-2-3">
+                                                <div class="uk-alert uk-alert-danger">Hoog</div>
+                                            </div>
+
+                                        </div>
+
+                                        <dt>Stopcontact B</dt>
+                                        <div class="uk-grid">
+                                            <div class="uk-width-1-3">
+                                                <dd>
+                                                    <div class="uk-alert uk-alert-warning">8642 W</div>
+                                                </dd>
+                                            </div>
+                                            <div class="uk-width-2-3">
+                                                <div class="uk-alert uk-alert-warning">Gemiddeld</div>
+                                            </div>
+
+                                        </div>
+
+                                        <dt>Stopcontact C</dt>
+                                        <div class="uk-grid">
+                                            <div class="uk-width-1-3">
+                                                <dd>
+                                                    <div class="uk-alert uk-alert-danger">13260 W</div>
+                                                </dd>
+                                            </div>
+                                            <div class="uk-width-2-3">
+                                                <div class="uk-alert uk-alert-danger">Hoog</div>
+                                            </div>
+
+                                        </div>
+
+                                        <dt>Totaal</dt>
+                                        <div class="uk-grid">
+                                            <div class="uk-width-1-3">
+                                                <dd>
+                                                    <div class="uk-alert uk-alert-warning">32402 W</div>
+                                                </dd>
+                                            </div>
+                                            <div class="uk-width-2-3">
+                                                <div class="uk-alert uk-alert-warning">Gemiddeld</div>
+                                            </div>
+
+                                        </div>
+
+                                    </dl>
+                                </li>
+                            </ul>
                             </div>
-                        </div>
-                        <div class="uk-width-medium-1-3">
-                             <div class="uk-panel uk-panel-box">
-                                <h3 class="uk-panel-title">Title</h3>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </div>
-                        </div>
-                        <div class="uk-width-medium-1-3">
-                             <div class="uk-panel uk-panel-box">
-                                <h3 class="uk-panel-title">Title</h3>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </div>
-                        </div>
+                        </div>                        
 				
 					
             </div>
@@ -238,7 +408,7 @@
                                 <div class="uk-width-1-1 uk-margin-top uk-margin-bottom">
                                     <p data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:300}">
                                         Copyright &copy; 2016 StuDorm</p>
-                                    <a href="#section-0" data-uk-smooth-scroll class="uk-icon-button uk-icon-arrow-circle-up" data-uk-tooltip="{pos:'top'}" title="Go Top" data-uk-scrollspy="{cls:'uk-animation-slide-right',delay:300}"></a>
+                                    <a href="#section-0" data-uk-smooth-scroll class="uk-icon-button uk-icon-hand-o-up" data-uk-tooltip="{pos:'top'}" title="Go Top" data-uk-scrollspy="{cls:'uk-animation-slide-right',delay:300}"></a>
                                 </div>
                             </div>
                         </div>

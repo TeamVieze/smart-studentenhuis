@@ -166,7 +166,7 @@
                                 <div class="uk-width-1-1 uk-margin-top uk-margin-bottom">
                                     <p data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:300}">
                                         Copyright &copy; 2016 StuDorm</p>
-                                    <a href="#section-0" data-uk-smooth-scroll class="uk-icon-button uk-icon-arrow-circle-up" data-uk-tooltip="{pos:'top'}" title="Go Top" data-uk-scrollspy="{cls:'uk-animation-slide-right',delay:300}"></a>
+                                    <a href="#section-0" data-uk-smooth-scroll class="uk-icon-button uk-icon-hand-o-up" data-uk-tooltip="{pos:'top'}" title="Go Top" data-uk-scrollspy="{cls:'uk-animation-slide-right',delay:300}"></a>
                                 </div>
                             </div>
                         </div>
