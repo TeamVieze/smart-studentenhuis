@@ -46,7 +46,7 @@
                     </li>
                 </ul>
                 <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Keuken</div>
+                <div class="uk-navbar-brand uk-navbar-center uk-visible-small navtekst">Keuken</div>
                 </div>
             </nav>
             <!-- Einde navigatiebalk --> 
@@ -74,8 +74,8 @@
                     <div class="uk-vertical-align uk-text-center">
                         <div class="uk-vertical-align-middle uk-width-1-2">
                             <p>
-                                <a class="uk-button uk-button-primary uk-button-large" href="#modalreserveren" data-uk-modal>Reserveer</a>
-                                <a class="uk-button uk-button-primary uk-button-large" href="#modaloverzicht" data-uk-modal>Overzicht</a>
+                                <a class="uk-button uk-button-primary uk-button-large uk-margin-bottom" href="#modalreserveren" data-uk-modal>Reserveer</a>
+                                <a class="uk-button uk-button-primary uk-button-large uk-margin-bottom" href="#modaloverzicht" data-uk-modal>Overzicht</a>
                             </p>
                         </div>
                     </div>
@@ -215,17 +215,46 @@
                                 </div>
                             </div>
 
-                            <div id="modaloverzicht" class="uk-modal">
+                            
+                             <div id="modaloverzicht" class="uk-modal">
                                 <div class="uk-modal-dialog">
                                     <button type="button" class="uk-modal-close uk-close"></button>
                                     <div class="uk-modal-header">
-                                        <h2>Overzicht </h2>
+                                        <h2>Mijn keuken reserveringen</h2>
                                     </div>
                                     
                                         <div class="uk-grid">
                                             <div class="uk-form uk-width-1-1">
-                                    
+                                            
+                                                    <article class="uk-comment">
+                                                        <header class="uk-comment-header">
+                                                            <h4 class="uk-comment-title uk-width-2-3">Sollicitatiegesprek</h4>  
+                                                            <div class="uk-comment-meta"> Dinsdag 25 maart 2016 | 7:00 - 7:15 </div>
+                                                        </header>
+                                                        <div class="uk-comment-body">
+                                                            <p>Graag wil ik 's ochtends de badkamer gebruiken zodat ik op tijd kan zijn voor mijn sollicitatiegesprek. </p>
+                                                             <p>
+                                                                    <a class="uk-button uk-button-primary " href="">Bewerken</a>
+                                                                    <a class="uk-button uk-button-primary " href="">Verwijderen</a>
+                                                            </p>                                
+                                                        </div>
+                                                    </article>
+                                               <hr class="uk-article-divider dividereserv">
                                                
+                                                    <article class="uk-comment">
+                                                        <header class="uk-comment-header">
+                                                            <h4 class="uk-comment-title uk-width-2-3">Tentamen</h4>  
+                                                            <div class="uk-comment-meta"> Vrijdag 7 april 2016 | 7:00 - 7:15 </div>
+                                                        </header>
+                                                        <div class="uk-comment-body">
+                                                            <p>Graag wil ik 's ochtends de keuken gebruiken zodat ik op tijd kan zijn voor mijn tentamen.  </p>
+                                                             <p>
+                                                                    <a class="uk-button uk-button-primary " href="">Bewerken</a>
+                                                                    <a class="uk-button uk-button-primary " href="">Verwijderen</a>
+                                                            </p>    
+                                                        </div>
+                                                    </article>
+                                               <hr class="uk-article-divider dividereserv">
                                                 
                                             
                                                 
@@ -240,7 +269,7 @@
                                             
                                     
                                     <div class="uk-modal-footer uk-text-right">
-                                        <button type="button" class="uk-button uk-button-primary">Sluiten</button>
+                                        
                                     </div>
                                 </div>
                             </div>
