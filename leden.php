@@ -67,6 +67,8 @@
             </ul>
             <!--Einde breadcrumbs-->
 
+            <hr class="uk-article-divider dividemetmargin">
+
             <div class="uk-grid">
                 <div class="uk-width-1-1 uk-margin-bottom">
                     <h2 class="uk-h2"><i class="uk-icon-home uk-text-primary"></i> Hoogstraat 9A</h2>

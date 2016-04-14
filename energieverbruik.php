@@ -65,10 +65,12 @@
     <li class="uk-active nu"><span>Energieverbruik</span></li>
    </ul>
    <!--Einde breadcrumbs-->
+
+   <hr class="uk-article-divider dividemetmargin">
 			
 			<div class="uk-grid" data-uk-grid-margin>
                
-				<!--Einde breadcrumbs-->
+				
                 <div class="uk-width-medium-1-4  uk-text-center">
                     <div class="uk-thumbnail uk-overlay-hover uk-border-circle">
                         <figure class="uk-overlay">
