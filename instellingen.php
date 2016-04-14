@@ -69,8 +69,18 @@
                 </div>
 
                 <div class="uk-width-large-1-2 uk-width-medium-1-1 uk-width-small-1-1 uk-margin-bottom">
-                    <img src="images/jorn.jpg" alt="" height="400" width="400">
+                    <img src="images/student2.jpg" alt="" height="" width="">
+					<div id="upload-drop" class="uk-placeholder uk-text-center">
+                                <i class="uk-icon-cloud-upload uk-icon-medium uk-text-muted uk-margin-small-right"></i> Verander profielfoto <a class="uk-form-file"><input id="upload-select uk-button-primary" type="file"></a>.
+                            </div>
+
+                            <div id="progressbar" class="uk-progress uk-hidden">
+                                <div class="uk-progress-bar" style="width: 0%;">0%</div>
+                            </div>
+
                 </div>
+				
+				
 
                 <div class="uk-width-large-1-2 uk-width-medium-1-1 uk-width-small-1-1">
                     <h2 class="uk-h2">Persoonlijke gegevens</h2>

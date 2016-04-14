@@ -73,7 +73,7 @@
             </div>
 
             <div class="uk-grid" data-uk-grid-margin>
-                <div class="uk-width-medium-1-2 uk-push-1-4 uk-text-center">
+                <div class="uk-width-medium-1-2 uk-text-center">
                      <div class="uk-thumbnail uk-overlay-hover uk-border-circle">
                         <figure class="uk-overlay">
                             <img class="uk-border-circle" width="250" height="250" src="images/huisbaas1.jpg" alt="">
@@ -84,6 +84,48 @@
                     <h2 class="uk-margin-bottom-remove">Henk Brennink</h2>
                     <p class="uk-text-large uk-margin-top-remove uk-text-muted">Huisbaas</p>
                 </div>
+				
+				
+				<div class="uk-grid" data-uk-grid-margin>
+					 <div class="uk-form uk-width-1-1">
+
+												<h2>Nieuw Huis toevoegen</h2>	
+												<div class="uk-form-row">
+                                                    <label class="uk-form-label" for="">Plaatsnaam:</label>
+                                                    <div class="uk-form-controls uk-form-icon uk-width-1-1 uk-margin-top">
+                                                        <i class="uk-icon-envelope"></i>
+                                                        
+                                                        <input type="text" class="uk-width-1-1" id="email" placeholder="Plaatsnaam">
+                                                    </div>
+                                                </div>
+												
+                                                <div class="uk-form-row">
+                                                    <label class="uk-form-label" for="">Straatnaam:</label>
+                                                    <div class="uk-form-controls uk-form-icon uk-width-1-1 uk-margin-top">
+                                                        <i class="uk-icon-envelope"></i>
+                                                        
+                                                        <input type="text" class="uk-width-1-1" id="email" placeholder="Straatnaam">
+                                                    </div>
+                                                </div>
+												
+											    <div class="uk-form-row">
+                                                    <label class="uk-form-label" for="">Postcode en huisnummer:</label>
+                                                    <div class="uk-form-controls uk-form-icon uk-width-1-1 uk-margin-top">
+                                                        <i class="uk-icon-envelope"></i>
+                                                        
+                                                        <input type="email" class="uk-width-1-2" id="email" placeholder="Postcode">
+														<input type="email" class="uk-width-1-3" id="email" placeholder="Huisnummer">
+                                                    </div>
+                                                </div>
+												
+												<a class="uk-button uk-button-primary uk-button-large uk-margin-top" href="#modalreserveren" data-uk-modal>Toevoegen</a>
+                                                
+                                            
+                                                
+                     </div>
+				
+			
+				</div>
 
                 
             </div>

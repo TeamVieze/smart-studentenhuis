@@ -13,7 +13,9 @@
         <script src="js/jquery.min.js"></script>
         <script src="js/uikit.min.js"></script>
 		<script type="text/javascript" src="js/components/sticky.min.js"></script>
-		
+		<script src="js/components/datepicker.js"></script>
+		<script src="js/components/autocomplete.js"></script>
+		<script src="js/components/timepicker.js"></script>
     </head>
 
     <body>
@@ -66,6 +68,8 @@
    </ul>
    <!--Einde breadcrumbs-->
 			
+			
+
 			
 	<hr class="uk-article-divider dividemetmargin">		
 			<!-- Grid voor de twee buttons --> 
@@ -179,7 +183,7 @@
                                                     <div class="uk-form-controls uk-form-icon uk-width-1-1">
                                                         <i class="uk-icon-calendar"></i>
                                                         
-                                                        <input type="text" class="uk-width-1-1" id="reserverendatum" placeholder="Datum">
+                                                        <input type="text" class="uk-width-1-1" id="reserverendatum" placeholder="Datum" data-uk-datepicker="{format:'DD.MM.YYYY'}">
                                                     </div>
                                                 </div>
                                                 
@@ -188,7 +192,7 @@
                                                     <div class="uk-form-controls uk-form-icon uk-width-1-1">
                                                         <i class="uk-icon-clock-o"></i>
                                                         
-                                                        <input type="text" class="uk-width-1-1" id="begintime" placeholder="Begintijd">
+                                                        <input type="text"  class="uk-width-1-1" id="begintime" placeholder="Begintijd" data-uk-timepicker="{format:'12h'}">
                                                     </div>
                                                 </div>
 
@@ -197,11 +201,18 @@
                                                     <div class="uk-form-controls uk-form-icon uk-width-1-1">
                                                         <i class="uk-icon-clock-o"></i>
                                                         
-                                                        <input type="text" class="uk-width-1-1" id="endtime" placeholder="Eindtijd">
+                                                        <input type="text" class="uk-width-1-1" id="endtime" placeholder="Eindtijd" data-uk-timepicker="{format:'12h'}">
                                                     </div>
                                                 </div>
                                                 
-                                            
+												<div class="uk-form-row">
+													 <label class="uk-form-label" for="">Plaats een opmerking</label>
+													 <div class="uk-form-controls uk-form-icon uk-width-1-1">
+														<textarea cols="30" rows="5" placeholder="Plaats een opmerking...">
+														
+														</textarea>
+													</div>
+												</div>
                                                 
                                             </div>
                                             
