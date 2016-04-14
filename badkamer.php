@@ -46,7 +46,7 @@
                     </li>
                 </ul>
                 <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Badkamer</div>
+                <div class="uk-navbar-brand uk-navbar-center uk-visible-small navtekst">Badkamer</div>
 				</div>
             </nav>
             <!-- Einde navigatiebalk --> 

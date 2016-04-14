@@ -46,7 +46,7 @@
                     </li>
                 </ul>
                 <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Instellingen</div>
+                <div class="uk-navbar-brand uk-navbar-center uk-visible-small navtekst">Instellingen</div>
 				</div>
             </nav>
             <!-- Einde navigatiebalk --> 
@@ -67,8 +67,8 @@
             <!--Einde breadcrumbs-->
 
             <div class="uk-grid">
-                <div class="uk-width-1-2 uk-margin-bottom">
-                    <h2 class="uk-h1">Mijn studentenhuizen</h2>
+                <div class="uk-width-1-1 uk-margin-bottom">
+                    <h2 class="uk-h2">Mijn studentenhuizen</h2>
                 </div>
             </div>
 
