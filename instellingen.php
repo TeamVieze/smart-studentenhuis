@@ -51,7 +51,7 @@
             </nav>
             <!-- Einde navigatiebalk --> 
 
-        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom wrap">
 			
 			
 
@@ -62,6 +62,8 @@
                 <li class="uk-active nu"><span>Instellingen</span></li>
             </ul>
             <!--Einde breadcrumbs-->
+			
+			<hr class="uk-article-divider dividemetmargin">	
 			
             <div class="uk-grid">
                 <div class="uk-width-1-1 uk-margin-bottom">
